@@ -1,7 +1,7 @@
-import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { useLocale, useTranslations } from "next-intl";
 import { Shafts } from "@/components/fx/Shafts";
 import { RobotWalker } from "@/components/fx/Scene";
+import { robotHref } from "@/lib/site";
 
 const prompts = ["p1", "p2", "p3"] as const;
 
@@ -10,6 +10,7 @@ const prompts = ["p1", "p2", "p3"] as const;
 // band under the text is the floor he walks on.
 export function MisvorAi() {
   const t = useTranslations("misvorAi");
+  const locale = useLocale();
   return (
     <section className="surface-night lattice relative flex min-h-[calc(100svh-4rem)] flex-col overflow-hidden px-6 pb-20 pt-14 sm:px-6 lg:min-h-[calc(100svh-5rem)] lg:pb-0 lg:pt-16">
       <Shafts
@@ -29,9 +30,10 @@ export function MisvorAi() {
             </li>
           ))}
         </ul>
-        <Link href="/contact" data-robot-target className="btn-brass misvor-btn mt-8">
+        {/* The consultation lives in its own project (misvor-ai), so this is a plain link to another site. */}
+        <a href={robotHref(locale)} data-robot-target className="btn-brass misvor-btn mt-8">
           {t("button")}
-        </Link>
+        </a>
       </div>
       <div data-robot-stage className="min-h-[240px] flex-1" aria-hidden />
       <RobotWalker />

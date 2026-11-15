@@ -41,6 +41,7 @@ Copy `.env.example` for local work. On Vercel set them under **Project Settings 
 | `N8N_WEBHOOK_SECRET` | if using n8n | The inbound webhook rejects everything without it. |
 | `VAPID_*`, `NEXT_PUBLIC_VAPID_PUBLIC_KEY` | for push | Without them push is skipped with a log line. The public key is inlined at build time. |
 | `RESEND_API_KEY`, `EMAIL_FROM` | for email | Without a key, email is skipped with a log line. Verify your sending domain in Resend. |
+| `NEXT_PUBLIC_ROBOT_URL` | for MISVOR AI | Public address of the separate `misvor-ai` project on Cloudflare Pages. The "Talk to MISVOR AI" button links there. Inlined at build time, so redeploy after changing it. The Gemini key lives in that project, not here. |
 | `GOOGLE_*`, `MICROSOFT_*` | optional | See the redirect URIs below. |
 | `IMAGE_REMOTE_HOSTS` | recommended | Comma separated hosts allowed for `next/image`. Unset means any https host, which lets others use your image optimizer. Include every host your editors paste image URLs from. |
 

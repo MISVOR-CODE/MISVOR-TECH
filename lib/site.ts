@@ -32,3 +32,14 @@ export const founderLinks = [
   { label: "GitLab", href: "https://gitlab.com/mistercomp1/" },
   { label: "YouTube", href: "https://www.youtube.com/@eladdaudet" }
 ] as const;
+
+// The MISVOR AI robot is a separate project (misvor-ai, on Cloudflare Pages) so it can change without touching this site.
+// Set NEXT_PUBLIC_ROBOT_URL to its address. It is read at build time.
+const DEFAULT_ROBOT_URL = "https://misvor-ai.pages.dev";
+
+/** Link behind the "Talk to MISVOR AI" button. The visitor's language travels along as ?lang=. */
+export function robotHref(locale: string, base: string | undefined = process.env.NEXT_PUBLIC_ROBOT_URL): string {
+  const url = new URL((base || "").trim() || DEFAULT_ROBOT_URL);
+  url.searchParams.set("lang", locale);
+  return url.toString();
+}
