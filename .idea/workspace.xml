@@ -18,14 +18,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="612e2a9a-6499-424f-ba53-a9e04e9dcea9" name="Changes" comment="second commit">
+    <list default="true" id="612e2a9a-6499-424f-ba53-a9e04e9dcea9" name="Changes" comment="third commit">
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEPLOYMENT.md" beforeDir="false" afterPath="$PROJECT_DIR$/DEPLOYMENT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/MisvorAi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/MisvorAi.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/site.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/site.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -59,23 +54,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.242967829966473" />
-      <entry key="MS500" value="2.2253422861209335" />
-      <entry key="S2" value="4.430288711107755" />
-      <entry key="S5" value="6.83401529742853" />
-      <entry key="S10" value="9.329730553579124" />
-      <entry key="S30" value="12.549415998049467" />
-      <entry key="S60" value="13.759871437214466" />
-      <entry key="M2" value="14.79526259736548" />
-      <entry key="M5" value="16.240250823156504" />
-      <entry key="M10" value="17.740541479968467" />
-      <entry key="M15" value="18.982800419153246" />
-      <entry key="M30" value="21.325477681648266" />
-      <entry key="H1" value="23.252215188686264" />
-      <entry key="H2" value="24.503174331366438" />
-      <entry key="H4" value="25.235013831797957" />
-      <entry key="D1" value="31.248657680188106" />
-      <entry key="W1" value="40.40546330001324" />
+      <entry key="MS100" value="1.2736349019374238" />
+      <entry key="MS500" value="3.3928161715589416" />
+      <entry key="S2" value="6.114902829110605" />
+      <entry key="S5" value="7.751904504674927" />
+      <entry key="S10" value="9.877908728632724" />
+      <entry key="S30" value="13.569010443970969" />
+      <entry key="S60" value="15.09766486096857" />
+      <entry key="M2" value="15.996619311692031" />
+      <entry key="M5" value="16.600831957593" />
+      <entry key="M10" value="16.96646697194312" />
+      <entry key="M15" value="17.255562093661656" />
+      <entry key="M30" value="17.825974065394742" />
+      <entry key="H1" value="18.708350994366928" />
+      <entry key="H2" value="21.86802712868244" />
+      <entry key="H4" value="27.99221968692593" />
+      <entry key="D1" value="45.373654428091704" />
+      <entry key="W1" value="58.44063329628477" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -97,23 +92,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1836814812724072" />
-      <entry key="MS500" value="2.185704471436243" />
-      <entry key="S2" value="4.406987296955746" />
-      <entry key="S5" value="6.8198910190248965" />
-      <entry key="S10" value="9.3199882416914" />
-      <entry key="S30" value="12.544957957307375" />
-      <entry key="S60" value="13.757415392160604" />
-      <entry key="M2" value="14.793950641712142" />
-      <entry key="M5" value="16.23967755521087" />
-      <entry key="M10" value="17.740195771488786" />
-      <entry key="M15" value="18.982525836347257" />
-      <entry key="M30" value="21.32529466152699" />
-      <entry key="H1" value="23.252104079777133" />
-      <entry key="H2" value="24.503112321178197" />
-      <entry key="H4" value="25.234980945239613" />
-      <entry key="D1" value="31.248650548780113" />
-      <entry key="W1" value="40.405461944243356" />
+      <entry key="MS100" value="1.1940446087254937" />
+      <entry key="MS500" value="3.344062326435211" />
+      <entry key="S2" value="6.091520199907536" />
+      <entry key="S5" value="7.739968323612281" />
+      <entry key="S10" value="9.870402923484836" />
+      <entry key="S30" value="13.565653557987293" />
+      <entry key="S60" value="15.09581225289029" />
+      <entry key="M2" value="15.995642052857177" />
+      <entry key="M5" value="16.60042745493557" />
+      <entry key="M10" value="16.966260921230337" />
+      <entry key="M15" value="17.255422850789042" />
+      <entry key="M30" value="17.825902602749157" />
+      <entry key="H1" value="18.708312583705627" />
+      <entry key="H2" value="21.86800042433357" />
+      <entry key="H4" value="27.992198397630414" />
+      <entry key="D1" value="45.37364683912722" />
+      <entry key="W1" value="58.44063174928184" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -265,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794729003970</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="third commit">
+      <option name="closed" value="true" />
+      <created>1794748192756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1794748192756</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +288,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

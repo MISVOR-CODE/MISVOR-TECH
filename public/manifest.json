@@ -1,0 +1,10 @@
+{
+  "name": "MISVOR",
+  "short_name": "MISVOR",
+  "description": "AI agents and workflow automation for small and mid-size businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08121f",
+  "theme_color": "#08121f",
+  "icons": [{ "src": "/icon.png", "sizes": "256x256", "type": "image/png", "purpose": "any" }]
+}
