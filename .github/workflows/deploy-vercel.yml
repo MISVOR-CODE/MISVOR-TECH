@@ -1,0 +1,45 @@
+# OPTIONAL. Only needed if you want GitHub Actions to deploy instead of Vercel's
+# own Git integration. Do not enable both, or every push deploys twice.
+#
+# To enable: add the repository secrets VERCEL_TOKEN, VERCEL_ORG_ID and
+# VERCEL_PROJECT_ID, then set the repository variable DEPLOY_TO_VERCEL to "true".
+name: Deploy to Vercel
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    if: >-
+      vars.DEPLOY_TO_VERCEL == 'true' &&
+      (github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Pull Vercel environment (includes DATABASE_URL / DIRECT_URL for migrations)
+        run: npx vercel@latest pull --yes --environment=production --token "$VERCEL_TOKEN"
+      # Runs `npm run vercel-build` (prisma generate, migrate deploy, next build).
+      - run: npx vercel@latest build --prod --token "$VERCEL_TOKEN"
+      - run: npx vercel@latest deploy --prebuilt --prod --token "$VERCEL_TOKEN"

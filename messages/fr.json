@@ -1,0 +1,801 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "À propos",
+    "aboutUs": "À propos de MISVOR",
+    "pricing": "Offres et tarifs",
+    "resources": "Ressources",
+    "blog": "Blog",
+    "faqs": "FAQ",
+    "contact": "Contact",
+    "solutions": "Solutions",
+    "industries": "Secteurs",
+    "founder": "Fondateur"
+  },
+  "header": {
+    "quote": "Démarrer un projet",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "search": "Rechercher",
+    "language": "Langue"
+  },
+  "footer": {
+    "companyHeading": "MISVOR",
+    "tagline": "IA et automatisation pour tous les secteurs",
+    "internalAccess": "Accès interne",
+    "location": "Valence, Espagne",
+    "solutionsHeading": "Solutions",
+    "industriesHeading": "Secteurs",
+    "blurb": "Nous concevons, construisons et exploitons les agents et workflows qui déchargent votre équipe du travail répétitif.",
+    "languages": "English · Français · Español"
+  },
+  "legal": {
+    "notice": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique de cookies",
+    "terms": "Conditions générales"
+  },
+  "hero": {
+    "headline": "Nous automatisons le travail de tous les secteurs",
+    "lead": "MISVOR conçoit, construit et exploite des agents IA et des workflows d'automatisation pour des entreprises de tous les secteurs. Le travail répétitif quitte votre équipe pour des systèmes qui vous appartiennent.",
+    "primary": "Démarrer un projet",
+    "secondary": "Découvrir les solutions",
+    "eyebrow": "IA et automatisation, dans le monde entier",
+    "card": {
+      "aiAgents": "Des assistants qui agissent",
+      "workflowAutomation": "Des processus en pilote automatique",
+      "documentIntelligence": "Lire, trier, classer",
+      "dataAnalytics": "Des chiffres clairs et à jour"
+    }
+  },
+  "news": {
+    "heading": "Restez informé",
+    "viewAll": "Tout voir",
+    "placeholderTitle": "Exemple de titre d'article"
+  },
+  "newsletter": {
+    "heading": "Abonnez-vous à notre lettre d'information",
+    "value1": "Nouvelles idées d'IA et d'automatisation",
+    "value2": "Enseignements de projets réels",
+    "value3": "Conseils pour faire gagner du temps à votre équipe",
+    "placeholder": "vous@email.com",
+    "subscribe": "M'abonner",
+    "thanks": "Merci, vérifiez votre boîte mail pour confirmer.",
+    "disclaimer": "Nous utiliserons vos données pour vous envoyer la newsletter. Pour en savoir plus sur leur traitement et vos droits, consultez notre",
+    "privacyLink": "politique de confidentialité"
+  },
+  "mobileCta": {
+    "quote": "Démarrer un projet"
+  },
+  "whatsapp": {
+    "message": "Bonjour MISVOR, j'aimerais parler de l'automatisation d'un processus.",
+    "ariaLabel": "Nous contacter sur WhatsApp"
+  },
+  "search": {
+    "placeholder": "Rechercher des articles et services…",
+    "ariaLabel": "Rechercher",
+    "viewAllResults": "Voir tous les résultats pour « {query} »",
+    "noResults": "Aucun résultat trouvé",
+    "loading": "Recherche en cours…",
+    "pageTitle": "Recherche",
+    "resultsFor": "Résultats pour « {query} »",
+    "resultsCount": "{count, plural, =0 {Aucun résultat} one {# résultat} other {# résultats}}",
+    "allCategories": "Toutes les catégories",
+    "filterByCategory": "Filtrer par catégorie",
+    "emptyStateHint": "Essayez d'autres mots-clés ou retirez un filtre.",
+    "startTyping": "Commencez à taper pour rechercher des articles et pages de service.",
+    "prevPage": "Précédent",
+    "nextPage": "Suivant",
+    "pageOf": "Page {page} sur {totalPages}",
+    "searchButton": "Rechercher"
+  },
+  "preferences": {
+    "heading": "Préférences de notification",
+    "subheading": "Choisissez comment être informé des nouveaux articles.",
+    "pushTitle": "Notifications push",
+    "pushDescription": "Recevez une alerte dans votre navigateur dès que nous publions.",
+    "enable": "Activer",
+    "disable": "Désactiver",
+    "requesting": "Demande d'autorisation…",
+    "denied": "Autorisation refusée.",
+    "enabled": "Notifications push activées.",
+    "disabled": "Notifications push désactivées.",
+    "emailNote": "Les préférences par e-mail se gèrent depuis votre compte après connexion."
+  },
+  "meta": {
+    "title": "MISVOR | IA et automatisation pour tous les secteurs",
+    "description": "MISVOR conçoit, construit et exploite des agents IA et des workflows d'automatisation pour des entreprises de tous les secteurs. Basée à Valence, active dans le monde entier."
+  },
+  "capabilities": {
+    "heading": "Un seul partenaire pour chaque couche d'automatisation",
+    "intro": "De l'agent qui répond à un client au pipeline qui le fait tourner, nous construisons et exploitons toute la chaîne.",
+    "learnMore": "En savoir plus"
+  },
+  "features": {
+    "agents": {
+      "eyebrow": "Agents IA",
+      "title": "Un agent IA pour chaque poste",
+      "body": "Les agents lisent vos documents, répondent à vos clients et agissent dans les outils que vous utilisez déjà. Ils tournent sur votre infrastructure, selon vos règles, avec un humain dans la boucle là où cela compte.",
+      "cta": "Découvrir les agents IA"
+    },
+    "workflows": {
+      "eyebrow": "Automatisation de workflows",
+      "title": "Des workflows qui tournent tout seuls",
+      "body": "Factures, intégration de clients, rapports, validations. Nous cartographions le processus, relions vos systèmes et surveillons le résultat, pour que le travail avance sans que personne n'ait à relancer.",
+      "cta": "Voir l'automatisation de workflows"
+    },
+    "data": {
+      "eyebrow": "Données et analytique",
+      "title": "Des chiffres fiables, en direct",
+      "body": "Des pipelines de données propres et des tableaux de bord transforment des feuilles de calcul éparses en une source de vérité unique, avec des prévisions quand les données le permettent.",
+      "cta": "Explorer données et analytique"
+    },
+    "tabsLabel": "Compétences à la une"
+  },
+  "industriesSection": {
+    "heading": "Chaque secteur a du travail qui mérite d'être automatisé",
+    "intro": "Les briques sont les mêmes partout. Nous les adaptons au vocabulaire, aux règles et aux outils de votre secteur."
+  },
+  "process": {
+    "heading": "Du premier appel au système en production",
+    "intro": "Un parcours court et prévisible, avec du logiciel qui fonctionne à chaque étape.",
+    "discover": {
+      "title": "Découvrir",
+      "body": "Nous cartographions votre processus, vos outils et vos contraintes, puis choisissons le travail qui est rentabilisé en premier."
+    },
+    "prototype": {
+      "title": "Prototyper",
+      "body": "Une version fonctionnelle sur des données réelles, assez tôt pour changer de cap."
+    },
+    "deploy": {
+      "title": "Déployer",
+      "body": "Nous déployons dans votre cloud ou le nôtre, avec sécurité, contrôle d'accès et supervision intégrés."
+    },
+    "operate": {
+      "title": "Exploiter",
+      "body": "Nous surveillons, ajustons et étendons le système au fil de l'évolution de votre activité."
+    }
+  },
+  "stack": {
+    "heading": "Les outils avec lesquels nous construisons"
+  },
+  "cta": {
+    "heading": "Dites-nous ce qui ralentit votre équipe",
+    "body": "Décrivez un processus que vous aimeriez voir tourner seul. Nous répondons avec un plan, pas avec un argumentaire commercial.",
+    "primary": "Démarrer un projet",
+    "secondary": "Voir les offres"
+  },
+  "pageLabels": {
+    "solutionsEyebrow": "Solutions",
+    "industriesEyebrow": "Secteurs",
+    "startProject": "Démarrer un projet",
+    "seePlans": "Voir les offres",
+    "overview": "Aperçu",
+    "outcome": "Ce qui change",
+    "whatWeBuild": "Ce que nous construisons",
+    "typicalStack": "Stack habituel",
+    "howItWorks": "Comment ça marche",
+    "howItWorksIntro": "Un projet type, en trois temps.",
+    "relatedIndustries": "Où c'est utilisé",
+    "relatedSolutions": "Solutions adaptées",
+    "whatWeAutomate": "Ce que nous automatisons",
+    "example": "Un flux typique"
+  },
+  "solutionsPage": {
+    "eyebrow": "Solutions",
+    "title": "IA et automatisation, de bout en bout",
+    "lead": "Six compétences qui se combinent en systèmes qui font un vrai travail pour votre entreprise.",
+    "cta": "Démarrer un projet"
+  },
+  "industriesPage": {
+    "eyebrow": "Secteurs",
+    "title": "Conçu pour tous les secteurs",
+    "lead": "MISVOR intervient partout où des personnes répètent des étapes qu'un logiciel peut apprendre. Choisissez votre secteur pour voir ce que nous automatisons.",
+    "cta": "Démarrer un projet"
+  },
+  "cities": {
+    "valencia": "Valence",
+    "tokyo": "Tokyo",
+    "prague": "Prague",
+    "sanJose": "San José",
+    "douala": "Douala",
+    "pune": "Pune"
+  },
+  "solutionPages": {
+    "aiAgents": {
+      "title": "Agents IA",
+      "short": "Des assistants qui lisent, décident et agissent dans les outils que votre équipe utilise déjà.",
+      "lead": "Des agents qui répondent aux clients, trient les demandes et exécutent des tâches, avec un humain dans la boucle là où cela compte.",
+      "overview": "Un agent est plus qu'un chatbot. Il comprend une demande, consulte vos systèmes, passe à l'étape suivante et transmet à une personne quand il le faut. Nous construisons des agents sur vos données, avec des limites claires sur ce qu'ils peuvent faire, et nous les évaluons comme n'importe quel membre de votre équipe.",
+      "build": [
+        "Assistants pour clients et collaborateurs sur le web, l'e-mail et WhatsApp",
+        "Tri des demandes qui oriente chaque tâche vers la bonne personne",
+        "Agents qui agissent dans votre CRM, votre ERP et vos outils de tickets",
+        "Évaluation et garde-fous pour que les réponses restent exactes et conformes"
+      ],
+      "steps": [
+        "Nous choisissons une conversation ou une tâche répétitive et définissons ce qu'est un bon résultat.",
+        "Nous construisons l'agent sur vos documents et systèmes, puis le testons sur des exemples réels.",
+        "Il passe en production avec journalisation, files de relecture et un moyen simple de le corriger."
+      ],
+      "outcome": "Des demandes courantes traitées en quelques secondes, et des personnes disponibles pour le travail qui en a besoin."
+    },
+    "workflowAutomation": {
+      "title": "Automatisation de workflows",
+      "short": "Des processus qui avancent seuls, du déclencheur à la tâche terminée.",
+      "lead": "Factures, intégrations, validations et rapports qui s'exécutent sans que personne n'ait à relancer.",
+      "overview": "La plupart des entreprises fonctionnent avec un réseau d'e-mails, de feuilles de calcul et de rappels. Nous cartographions ce réseau, relions vos systèmes et automatisons les étapes intermédiaires, avec des alertes quand un humain doit intervenir. Chaque workflow est supervisé et documenté, pour qu'il continue de fonctionner après notre départ.",
+      "build": [
+        "Intégrations entre les outils que vous payez déjà",
+        "Circuits de validation, rappels et mises à jour de statut",
+        "Rapports planifiés et synchronisation de données",
+        "Supervision, reprises et alertes claires quand une étape échoue"
+      ],
+      "steps": [
+        "Nous cartographions le déroulement réel du travail aujourd'hui, exceptions comprises.",
+        "Nous automatisons le chemin répétable et concevons une voie claire pour les exceptions.",
+        "Nous supervisons le workflow et l'ajustons au fil de l'évolution de votre processus."
+      ],
+      "outcome": "Moins de passages de relais, moins d'erreurs et un travail qui n'attend plus que quelqu'un y pense."
+    },
+    "documentIntelligence": {
+      "title": "Intelligence documentaire",
+      "short": "Factures, contrats et formulaires lus, vérifiés et classés automatiquement.",
+      "lead": "Transformez des piles de PDF, de scans et d'e-mails en données structurées exploitables par vos systèmes.",
+      "overview": "C'est dans les documents que se cache le travail manuel. Nous construisons des pipelines qui lisent les fichiers entrants, extraient les champs utiles, les vérifient selon vos règles et les classent au bon endroit. Ils peuvent tourner sur vos propres serveurs, de sorte que les documents sensibles ne quittent jamais votre contrôle.",
+      "build": [
+        "Lecture de factures, connaissements, bulletins de paie et contrats",
+        "Validation selon vos règles, avec les exceptions transmises à une personne",
+        "Recherche dans vos archives en langage naturel",
+        "Déploiement privé sur votre propre infrastructure"
+      ],
+      "steps": [
+        "Nous rassemblons un échantillon de vos vrais documents, y compris les plus désordonnés.",
+        "Nous affinons l'extraction et la validation jusqu'à ce que les résultats correspondent à vos contrôles.",
+        "Les documents entrent, les données sortent et les exceptions arrivent dans une file de relecture."
+      ],
+      "outcome": "Des heures de saisie remplacées par une file de relecture qui prend quelques minutes."
+    },
+    "dataAnalytics": {
+      "title": "Données et analytique",
+      "short": "Des pipelines propres et des tableaux de bord en direct qui vous donnent une seule version de la vérité.",
+      "lead": "Réunissez feuilles de calcul et systèmes éparpillés, puis voyez ce qui se passe vraiment.",
+      "overview": "Les bonnes décisions demandent des chiffres fiables. Nous construisons les pipelines qui collectent et nettoient vos données, les modèles qui y repèrent des tendances et les tableaux de bord qui les placent devant les bonnes personnes. Les prévisions n'arrivent que lorsque les données les justifient.",
+      "build": [
+        "Pipelines de données avec nettoyage et contrôles qualité",
+        "Tableaux de bord pour la finance, les opérations et les ventes",
+        "Prévision et détection d'anomalies lorsque les données le permettent",
+        "Des rapports qui arrivent à l'heure sans que personne ne les construise"
+      ],
+      "steps": [
+        "Nous listons les questions auxquelles vous devez répondre et l'endroit où se trouvent les données.",
+        "Nous connectons et nettoyons les sources, et convenons d'une définition unique pour chaque chiffre.",
+        "Les tableaux de bord et alertes passent en production, et nous continuons de les affiner avec votre équipe."
+      ],
+      "outcome": "Une source de vérité unique dans laquelle tout le monde puise."
+    },
+    "cloudDevops": {
+      "title": "Cloud et DevOps",
+      "short": "Une infrastructure fiable et évolutive sur laquelle repose votre automatisation.",
+      "lead": "Des fondations cloud, des pipelines et une supervision pensés pour la disponibilité et un coût raisonnable.",
+      "overview": "L'automatisation n'est aussi fiable que ce sur quoi elle repose. Nous concevons l'infrastructure cloud sous forme de code, automatisons vos mises en production et mettons en place une supervision qui vous signale les problèmes avant vos utilisateurs. Nous travaillons sur AWS et Google Cloud, avec Kubernetes quand il se justifie.",
+      "build": [
+        "Infrastructure as code avec Terraform et Ansible",
+        "Pipelines CI/CD qui livrent en sécurité et souvent",
+        "Conteneurs et Kubernetes là où ils se justifient",
+        "Supervision, alertes et maîtrise des coûts"
+      ],
+      "steps": [
+        "Nous examinons ce que vous exploitez aujourd'hui et où c'est fragile ou coûteux.",
+        "Nous reconstruisons les fondations sous forme de code et automatisons builds, tests et mises en production.",
+        "Nous surveillons le système, répondons aux alertes et maîtrisons les coûts."
+      ],
+      "outcome": "Des systèmes qui restent en ligne, se livrent sans drame et coûtent ce qu'ils doivent."
+    },
+    "securityCompliance": {
+      "title": "Sécurité et conformité",
+      "short": "Contrôle d'accès, protection et pistes d'audit intégrés dès le premier jour.",
+      "lead": "Une automatisation qui satisfait votre équipe sécurité et vos régulateurs.",
+      "overview": "Toute automatisation touche des données, la sécurité doit donc faire partie de la conception. Nous appliquons dès le départ les accès au moindre privilège, l'authentification forte, le chiffrement et les tests, et préparons les preuves nécessaires aux audits de type RGPD et ISO 27001.",
+      "build": [
+        "Gestion des identités et des accès au moindre privilège, avec MFA",
+        "Tests de sécurité et analyse de code dans vos pipelines",
+        "Stockage chiffré, sauvegardes et plans de reprise",
+        "Politiques et preuves pour le RGPD et l'ISO 27001"
+      ],
+      "steps": [
+        "Nous cartographions les données que vous détenez, qui y accède et où sont les risques.",
+        "Nous comblons les failles avec des contrôles d'accès, du chiffrement et des vérifications automatiques.",
+        "Nous continuons à tester et à rendre compte pour que la conformité reste à jour."
+      ],
+      "outcome": "Une automatisation que votre équipe sécurité peut approuver et que vos auditeurs peuvent retracer."
+    }
+  },
+  "industryPages": {
+    "finance": {
+      "title": "Finance, comptabilité et juridique",
+      "short": "Clôturez plus vite et gardez chaque document sous contrôle.",
+      "lead": "De l'automatisation pour les équipes qui gèrent argent, contrats et échéances.",
+      "overview": "Le travail financier et juridique repose sur des documents, des règles et des échéances, ce qui est exactement là où l'automatisation est rentable. Nous lisons et comptabilisons les factures, rapprochons les comptes, suivons les obligations et répondons aux questions courantes, avec la piste d'audit dont ces équipes ont besoin.",
+      "automate": [
+        "Saisie de factures et de reçus avec imputation automatique",
+        "Rapprochement et rapports de clôture mensuelle",
+        "Revue de contrats et suivi des échéances",
+        "Intégration des clients et demandes de documents"
+      ],
+      "example": "Une facture fournisseur arrive par e-mail, l'agent la lit, la rapproche du bon de commande, la comptabilise et ne sollicite une personne que lorsque quelque chose ne correspond pas."
+    },
+    "healthcare": {
+      "title": "Santé",
+      "short": "Moins de paperasse entre soignants et patients.",
+      "lead": "Une automatisation qui rend du temps aux équipes soignantes tout en protégeant les données des patients.",
+      "overview": "Les cliniques et les entreprises de santé perdent des heures en formulaires, plannings et dossiers. Nous automatisons la charge administrative autour des soins, avec un contrôle d'accès strict et un déploiement privé pour que les données sensibles restent là où elles doivent.",
+      "automate": [
+        "Prise de rendez-vous, rappels et suivis",
+        "Formulaires d'admission et lettres d'orientation lus et intégrés aux dossiers",
+        "Démarches d'assurance et de facturation",
+        "Rapports d'exploitation et de conformité"
+      ],
+      "example": "Un patient écrit pour déplacer son rendez-vous, l'assistant propose des créneaux libres, confirme le changement, met à jour le planning et envoie un rappel la veille."
+    },
+    "logistics": {
+      "title": "Logistique et transport",
+      "short": "Des documents d'expédition traités en minutes, pas en heures.",
+      "lead": "Des connaissements aux avis de livraison, l'automatisation de la paperasse qui fait circuler les marchandises.",
+      "overview": "Le transport repose sur des documents dans des dizaines de formats et de langues. Nous construisons des pipelines qui les lisent, les contrôlent et alimentent vos systèmes, ainsi que des workflows qui tiennent les clients informés sans centre d'appels.",
+      "automate": [
+        "Lecture de connaissements, de factures et de formulaires douaniers",
+        "Suivi des expéditions et mises à jour de statut pour les clients",
+        "Devis transporteurs et workflows de réservation",
+        "Alertes d'exception pour retards et écarts"
+      ],
+      "example": "Un connaissement arrive dans la boîte partagée, le pipeline extrait le destinataire, les poids et les références, les compare à la réservation et ne signale que les différences."
+    },
+    "retail": {
+      "title": "Commerce et e-commerce",
+      "short": "Des boutiques qui tournent sans accroc en coulisses.",
+      "lead": "De l'automatisation pour les catalogues, les commandes et le service client sur tous vos canaux de vente.",
+      "overview": "Les boutiques en ligne jonglent chaque jour avec produits, stocks, commandes et questions. Nous automatisons les tests, les mises à jour de catalogue, le traitement des commandes et le support, sur des plateformes comme Shopify et Shopware, pour que lancements et campagnes ne cassent rien.",
+      "automate": [
+        "Mise à jour du catalogue et des prix sur tous les canaux",
+        "Routage des commandes, retours et messages aux clients",
+        "Tests automatisés de la boutique avant chaque mise en production",
+        "Tableaux de bord des ventes et des stocks"
+      ],
+      "example": "Un client demande où est sa commande, l'assistant interroge le transporteur, répond dans sa langue et n'ouvre un ticket que si le colis est en retard."
+    },
+    "media": {
+      "title": "Médias et édition",
+      "short": "Publiez plus vite et touchez chaque lecteur avec le bon sujet.",
+      "lead": "De l'automatisation pour les rédactions, les créateurs et les équipes de contenu.",
+      "overview": "Les équipes de contenu passent leurs journées entre mise en forme, diffusion et relances. Nous automatisons la chaîne du brouillon à la publication, personnalisons ce que voit chaque lecteur et gérons les notifications, pour que les éditeurs se concentrent sur le sujet.",
+      "automate": [
+        "Aide à la rédaction, au résumé et à la traduction",
+        "Workflows de publication sur le web, l'e-mail et les réseaux",
+        "Notifications push et lettres d'information personnalisées",
+        "Rapports d'audience et de performance des contenus"
+      ],
+      "example": "Un article est validé, le workflow le publie, crée des résumés en trois langues et envoie des notifications push aux lecteurs qui suivent ce sujet."
+    },
+    "education": {
+      "title": "Éducation",
+      "short": "Plus d'enseignement, moins d'administration.",
+      "lead": "De l'automatisation et des assistants pour les écoles, les universités et les organismes de formation.",
+      "overview": "Les enseignants perdent du temps avec les inscriptions, les emplois du temps et les mêmes questions d'étudiants. Nous construisons des assistants et des workflows qui prennent en charge la routine, ainsi que des tableaux de bord qui montrent où les étudiants ont besoin de soutien.",
+      "automate": [
+        "Assistants pour étudiants et personnel sur les questions courantes",
+        "Inscriptions, documents et certificats",
+        "Environnements de laboratoire et de cours préparés automatiquement",
+        "Rapports de progression et d'assiduité"
+      ],
+      "example": "Un étudiant s'interroge sur les échéances, l'assistant répond à partir du guide du cours et transmet la demande au personnel si elle nécessite une décision."
+    },
+    "manufacturing": {
+      "title": "Industrie et énergie",
+      "short": "Reliez l'atelier au bureau.",
+      "lead": "De l'automatisation pour l'exploitation, la maintenance et le reporting en milieu industriel.",
+      "overview": "Les usines produisent des données toute la journée, mais elles atteignent rarement ceux qui peuvent agir. Nous relions machines, systèmes et équipes, automatisons les rapports et les demandes de maintenance, et construisons une infrastructure disponible en continu.",
+      "automate": [
+        "Rapports de production et de qualité",
+        "Demandes de maintenance et commandes de pièces",
+        "Alertes lorsque les mesures sortent de la plage",
+        "Coordination des stocks et des fournisseurs"
+      ],
+      "example": "Une mesure de capteur dérive, le workflow ouvre un ticket de maintenance, prévient le chef d'équipe et commande la pièce si le stock est bas."
+    },
+    "professional": {
+      "title": "Services professionnels",
+      "short": "Des cabinets et agences qui livrent plus avec la même équipe.",
+      "lead": "De l'automatisation pour les consultants, agences, conseillers et petits cabinets.",
+      "overview": "Les sociétés de services vendent de l'expertise, mais perdent des heures en intégration, reporting et relances clients. Nous automatisons ces tâches, ajoutons des assistants qui préparent des réponses pour vos équipes et gardons les documents clients organisés et protégés.",
+      "automate": [
+        "Intégration des clients et collecte de documents",
+        "Rapports récurrents et mises à jour de statut",
+        "Assistants de rédaction qui préparent des premières versions",
+        "Rappels d'échéances et workflows de facturation"
+      ],
+      "example": "Un nouveau client signe, le workflow crée son dossier, envoie la liste des documents, suit ce qui manque et le relance jusqu'à ce que tout soit complet."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "À propos de MISVOR",
+    "title": "Une entreprise technologique pour tous les types de travail",
+    "lead": "MISVOR construit l'IA et l'automatisation qui permettent aux organisations de tout secteur de consacrer leur temps à l'essentiel.",
+    "storyTitle": "Pourquoi MISVOR existe",
+    "story1": "Tous les secteurs partagent le même problème caché. Des personnes qualifiées passent leurs journées sur des étapes répétitives, à recopier des données entre systèmes, à relancer des validations et à relire sans cesse les mêmes documents. Le logiciel peut s'en charger, à condition d'être conçu autour de la façon dont le travail se fait vraiment.",
+    "story2": "MISVOR est basée à Valence et travaille avec des équipes du monde entier. Nous combinons IA, automatisation et ingénierie solide, afin que nos livrables soient sûrs, documentés et prêts à être repris par votre équipe.",
+    "founderCta": "Rencontrer le fondateur",
+    "whereTitle": "Basés à Valence, actifs dans le monde entier",
+    "whereBody": "Le fondateur a livré des projets depuis ces villes. Nous travaillons en anglais et en français, avec aussi de l'espagnol et du japonais.",
+    "valuesTitle": "Notre façon de travailler",
+    "valuesIntro": "Quatre principes guident chaque projet.",
+    "values": {
+      "useful": {
+        "title": "Utile avant d'être astucieux",
+        "body": "Nous commençons par la tâche qui vous coûte le plus de temps et choisissons l'outil le plus simple qui la résout."
+      },
+      "yours": {
+        "title": "Vos données restent les vôtres",
+        "body": "Les systèmes peuvent tourner sur votre propre infrastructure, et l'accès est limité à ce dont chacun a besoin."
+      },
+      "human": {
+        "title": "Les personnes restent dans la boucle",
+        "body": "Les agents demandent de l'aide quand ils hésitent, et chaque action importante peut être relue."
+      },
+      "handover": {
+        "title": "Conçu pour être transmis",
+        "body": "Tout est documenté et testé, pour que votre équipe puisse l'exploiter sans nous."
+      }
+    }
+  },
+  "founderPage": {
+    "eyebrow": "Qui le construit",
+    "title": "Rencontrez le fondateur",
+    "lead": "Elad Anedo Daudet Ikeorah construit des systèmes sûrs et automatisés pour des équipes sur quatre continents.",
+    "name": "Elad Anedo Daudet Ikeorah",
+    "role": "Fondateur et ingénieur en chef",
+    "heading": "Un ingénieur qui a exploité les systèmes qu'il construit",
+    "body1": "Elad construit depuis plus de six ans des systèmes sûrs et automatisés pour des équipes au Cameroun, en Allemagne, au Japon, en Inde, en Espagne et aux États-Unis. Son travail couvre le DevOps, l'infrastructure cloud, les opérations de sécurité, l'ingénierie des données et l'automatisation par l'IA.",
+    "body2": "Ce mélange compte. Un agent IA n'est utile que s'il repose sur une infrastructure fiable, traite les données en sécurité et s'adapte à la façon de travailler des gens. Il conçoit ces trois éléments ensemble, et travaille en anglais et en français, avec aussi de l'espagnol et du japonais.",
+    "stats": {
+      "uptime": {
+        "value": "99.9%+",
+        "label": "Disponibilité des systèmes en production"
+      },
+      "sites": {
+        "value": "50+",
+        "label": "Sites déployés avec l'infrastructure as code"
+      },
+      "applicants": {
+        "value": "2,000+",
+        "label": "Candidats présélectionnés par un seul workflow n8n"
+      },
+      "cost": {
+        "value": "40%",
+        "label": "Réduction de coûts obtenue, au mieux"
+      }
+    },
+    "mscTitle": "Master en informatique",
+    "mscIssuer": "MIT World Peace University, Pune",
+    "mscNote": "Mention très bien avec distinction, deux bourses au mérite",
+    "ciscoTitle": "Cisco CyberOps Associate",
+    "ciscoIssuer": "Cisco Systems",
+    "ciscoNote": "Opérations de sécurité",
+    "googleTitle": "Google AI Professional",
+    "googleIssuer": "Google",
+    "googleNote": "IA appliquée",
+    "languagesTitle": "Quatre langues",
+    "languagesIssuer": "Anglais, français, espagnol, japonais",
+    "languagesNote": "Courant en anglais et en français, en progression en espagnol et en japonais",
+    "timelineTitle": "Expérience",
+    "timelineIntro": "Un parcours à travers le DevOps, la sécurité, les données et l'IA, entre entreprises et continents.",
+    "roles": {
+      "hosono": {
+        "when": "Oct. 2025 – juin 2026",
+        "title": "Ingénieur support technique et automatisation",
+        "where": "Hosono DE · Tokyo, Japon",
+        "body": "A construit des automatisations n8n et Ansible pour les tests, le suivi et l'inventaire des serveurs sur des sites clients Shopify et Shopware, et amélioré un agent LLM interne pour une équipe distribuée."
+      },
+      "abinbev": {
+        "when": "Févr. 2024 – août 2024",
+        "title": "Ingénieur données et automatisation",
+        "where": "AB InBev · Projet à distance",
+        "body": "A automatisé la présélection de plus de 2 000 candidats avec n8n, économisant plus de 20 heures de revue manuelle, et construit des pipelines Python atteignant 99,9 % d'intégrité des données."
+      },
+      "cisco": {
+        "when": "Juin 2023 – nov. 2023",
+        "title": "Ingénieur CyberOps",
+        "where": "Cisco Systems · Projet à distance",
+        "body": "A réduit de 20 % le temps moyen de réponse en améliorant les playbooks SOAR, et automatisé le déploiement réseau sécurisé sur plus de 50 sites avec Ansible et Terraform."
+      },
+      "rocket": {
+        "when": "Juil. 2021 – sept. 2022",
+        "title": "Développeur full stack",
+        "where": "Rocket 234 · Douala, Cameroun",
+        "body": "A livré des systèmes full stack avec jusqu'à 99,99 % de disponibilité et réduit de plus de 20 % les cycles de livraison en automatisant le CI/CD."
+      },
+      "mistercomp": {
+        "when": "Févr. 2021 – aujourd'hui",
+        "title": "Consultant DevOps principal",
+        "where": "MisterComp Cameroun · Freelance",
+        "body": "Conseil en cybersécurité, réseaux, infrastructure cloud et matériel, avec 99,9 % de continuité opérationnelle."
+      }
+    },
+    "skillsTitle": "Outils et points forts",
+    "skills": {
+      "automation": {
+        "title": "IA et automatisation",
+        "items": "n8n, Make.com, LangChain, OpenAI API, Hugging Face, UiPath, Robocorp"
+      },
+      "cloud": {
+        "title": "Cloud et DevOps",
+        "items": "AWS, Google Cloud, Kubernetes, Docker, Terraform, Ansible, GitLab CI/CD, GitHub Actions"
+      },
+      "code": {
+        "title": "Code et données",
+        "items": "Python, TypeScript, SQL, FastAPI, Django, Angular, Pandas, scikit-learn"
+      },
+      "security": {
+        "title": "Sécurité et conformité",
+        "items": "IAM, MFA, Zero Trust, OWASP ZAP, SonarQube, GDPR, ISO 27001, SOC 2"
+      },
+      "data": {
+        "title": "Supervision et tests",
+        "items": "Prometheus, Grafana, Datadog, Power BI, Playwright, Cypress"
+      }
+    },
+    "educationTitle": "Formation",
+    "educationBody": "Master en informatique, MIT World Peace University (Pune). Licence en génie logiciel, Université de Buea. Cisco Networking Academy.",
+    "contactCta": "Parler à Elad"
+  },
+  "pricingPage": {
+    "eyebrow": "Offres et tarifs",
+    "title": "Des collaborations à la mesure du problème",
+    "lead": "Commencez petit, prouvez la valeur, puis grandissez. Chaque projet est chiffré après un court appel de découverte.",
+    "popular": "Le plus choisi",
+    "cta": "Demander un devis",
+    "note": "Les tarifs dépendent du périmètre, des systèmes et des données concernés. Nous remettons un devis ferme pour chaque phase après un premier appel gratuit, pour qu'il n'y ait pas de surprise.",
+    "pilot": {
+      "name": "Pilote",
+      "tagline": "Prouvez-le sur un processus",
+      "body": "Un pilote ciblé sur un seul workflow ou agent, du cadrage à un prototype fonctionnel sur vos données.",
+      "includes": [
+        "Atelier de découverte",
+        "Prototype fonctionnel sur données réelles",
+        "Indicateurs de réussite et court rapport",
+        "Notes de transmission"
+      ],
+      "price": "Devis ferme"
+    },
+    "build": {
+      "name": "Construction",
+      "tagline": "Un système en production",
+      "body": "Un système complet d'automatisation ou d'IA, intégré à vos outils, sécurisé et documenté.",
+      "includes": [
+        "Architecture et intégrations",
+        "Sécurité et contrôle d'accès",
+        "Tests et supervision",
+        "Formation de l'équipe et documentation"
+      ],
+      "price": "Devis ferme par phase"
+    },
+    "partner": {
+      "name": "Partenaire",
+      "tagline": "Une équipe d'automatisation à votre disposition",
+      "body": "Une équipe dédiée qui continue d'étendre et d'exploiter votre automatisation à mesure que votre activité évolue.",
+      "includes": [
+        "Feuille de route et revue mensuelles",
+        "Exploitation et support",
+        "De nouveaux workflows à chaque cycle",
+        "Réponse prioritaire"
+      ],
+      "price": "Forfait mensuel"
+    },
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Peut-on commencer par quelque chose de petit ?",
+        "a": "Oui. La plupart des clients commencent par un pilote sur un processus, puis étendent quand les résultats sont clairs."
+      },
+      {
+        "q": "À qui appartiennent les systèmes que vous construisez ?",
+        "a": "À vous. Nous documentons tout et remettons le code, la configuration et les accès, pour que vous ne soyez jamais prisonnier."
+      },
+      {
+        "q": "Cela peut-il tourner sur nos propres serveurs ?",
+        "a": "Oui. Nous pouvons déployer dans votre compte cloud ou sur votre propre infrastructure, ce qui est souvent le bon choix pour des documents sensibles."
+      },
+      {
+        "q": "Combien de temps dure un pilote ?",
+        "a": "Cela dépend du processus, mais nous visons un prototype fonctionnel assez tôt pour que vous puissiez le juger sur des données réelles et changer de cap si nécessaire."
+      }
+    ]
+  },
+  "faqPage": {
+    "eyebrow": "Ressources",
+    "title": "Questions fréquentes",
+    "lead": "Des réponses directes sur notre façon de travailler.",
+    "items": [
+      {
+        "q": "Que fait MISVOR ?",
+        "a": "Nous concevons, construisons et exploitons des agents IA et des workflows d'automatisation pour des organisations de tout secteur, avec le travail cloud, données et sécurité dont ils dépendent."
+      },
+      {
+        "q": "Faut-il être une entreprise technologique pour travailler avec vous ?",
+        "a": "Non. La plupart de nos clients ne le sont pas. Nous travaillons avec des équipes de la finance, de la santé, de la logistique, du commerce, des médias, de l'éducation et d'autres, et nous expliquons les choses simplement."
+      },
+      {
+        "q": "Où iront nos données ?",
+        "a": "Là où vous le décidez. Nous pouvons tout exécuter dans votre propre compte cloud ou sur vos serveurs, et les modèles peuvent être hébergés en privé lorsque les documents sont sensibles."
+      },
+      {
+        "q": "L'IA fera-t-elle des erreurs ?",
+        "a": "Parfois, et c'est pourquoi nous le prévoyons dès la conception. Les agents travaillent dans des limites claires, consignent ce qu'ils font et transmettent les cas incertains à une personne."
+      },
+      {
+        "q": "Quels outils utilisez-vous ?",
+        "a": "Nous choisissons ce qui convient, souvent n8n, Python, LangChain, PostgreSQL et les grands clouds. Nous travaillons avec les systèmes que vous avez déjà."
+      },
+      {
+        "q": "Comment gérez-vous la sécurité et le RGPD ?",
+        "a": "L'accès est limité à ce dont chacun a besoin, les données sont chiffrées et nous préparons la documentation nécessaire aux revues de type RGPD et ISO 27001."
+      },
+      {
+        "q": "Pouvez-vous nous accompagner après la mise en production ?",
+        "a": "Oui. De nombreux clients nous gardent sur un forfait mensuel pour surveiller, ajuster et étendre ce que nous avons construit."
+      },
+      {
+        "q": "Dans quelles langues travaillez-vous ?",
+        "a": "Anglais et français au quotidien, avec aussi de l'espagnol et du japonais."
+      },
+      {
+        "q": "Comment démarrer ?",
+        "a": "Envoyez-nous une courte description du processus que vous voulez améliorer. Nous répondons avec des questions et une proposition de pilote."
+      }
+    ]
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Dites-nous ce que vous aimeriez automatiser",
+    "lead": "Quelques lignes suffisent. Nous répondons avec des questions et un plan, pas avec un argumentaire commercial.",
+    "formTitle": "Envoyez-nous un message",
+    "formIntro": "Décrivez le processus, les outils concernés et ce à quoi ressemblerait un bon résultat.",
+    "name": "Nom",
+    "email": "E-mail",
+    "company": "Entreprise",
+    "topic": "Domaine d'intérêt",
+    "topicPlaceholder": "Choisissez",
+    "topicOther": "Autre chose",
+    "message": "Message",
+    "messagePlaceholder": "Qu'est-ce qui prend trop de temps à votre équipe ?",
+    "send": "Envoyer le message",
+    "sending": "Envoi…",
+    "thanksTitle": "Merci",
+    "thanksBody": "Votre message est bien parti. Nous vous répondrons bientôt par e-mail.",
+    "error": "Nous n'avons pas pu envoyer votre message. Écrivez-nous directement par e-mail ou réessayez plus tard.",
+    "emailLabel": "E-mail",
+    "whatsappValue": "Discutez avec nous",
+    "whatsappMessage": "Bonjour MISVOR, j'aimerais parler de l'automatisation d'un processus.",
+    "locationLabel": "Basés à",
+    "languagesLabel": "Langues",
+    "languagesValue": "Anglais, français",
+    "reply": "Nous lisons chaque message et répondons dès que possible."
+  },
+  "blogPage": {
+    "eyebrow": "Ressources",
+    "title": "Analyses",
+    "lead": "Notes sur l'IA, l'automatisation et la construction de systèmes durables.",
+    "empty": "Pas encore d'articles. Revenez bientôt.",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {page} sur {pages}"
+  },
+  "legalPages": {
+    "eyebrow": "Mentions légales",
+    "updated": "Dernière mise à jour : novembre 2026.",
+    "notice": {
+      "title": "Mentions légales",
+      "lead": "Qui exploite ce site.",
+      "sections": [
+        {
+          "h": "Éditeur",
+          "p": "Ce site est exploité par MISVOR, basée à {location}. Vous pouvez nous écrire à {email}."
+        },
+        {
+          "h": "Propriété intellectuelle",
+          "p": "Le contenu, le design et le logo de ce site appartiennent à MISVOR sauf mention contraire. Merci de nous demander avant de les réutiliser."
+        },
+        {
+          "h": "Responsabilité",
+          "p": "Nous veillons à ce que les informations de ce site soient exactes et à jour, mais elles sont données à titre général et ne constituent ni un contrat ni un conseil professionnel."
+        },
+        {
+          "h": "Liens vers d'autres sites",
+          "p": "Ce site peut renvoyer vers des sites tiers. Nous ne sommes responsables ni de leur contenu ni de leurs pratiques en matière de confidentialité."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "lead": "Comment nous traitons vos données personnelles.",
+      "sections": [
+        {
+          "h": "Responsable du traitement",
+          "p": "MISVOR, basée à {location}, est responsable des données collectées sur ce site. Contact : {email}."
+        },
+        {
+          "h": "Ce que nous collectons",
+          "p": "Uniquement ce que vous nous envoyez : les informations du formulaire de contact, votre e-mail si vous vous abonnez à la lettre d'information et les préférences de notification que vous choisissez."
+        },
+        {
+          "h": "Pourquoi nous l'utilisons",
+          "p": "Pour répondre à votre demande, vous envoyer la lettre d'information demandée et assurer la sécurité du site. Nous ne vendons pas vos données."
+        },
+        {
+          "h": "Qui le traite",
+          "p": "Nous faisons appel à des prestataires, par exemple pour l'envoi d'e-mails et l'hébergement, qui traitent les données pour notre compte dans le cadre d'accords appropriés."
+        },
+        {
+          "h": "Combien de temps nous le conservons",
+          "p": "Les demandes sont conservées le temps nécessaire à leur traitement puis pendant une durée raisonnable. Les données de la lettre d'information sont conservées jusqu'à votre désabonnement."
+        },
+        {
+          "h": "Vos droits",
+          "p": "Vous pouvez nous demander d'accéder à vos données, de les corriger, de les supprimer ou de les exporter, et d'en limiter l'usage ou de vous y opposer. Écrivez à {email}. Vous pouvez aussi saisir votre autorité de protection des données."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Politique de cookies",
+      "lead": "Ce que ce site enregistre dans votre navigateur.",
+      "sections": [
+        {
+          "h": "Uniquement des cookies essentiels",
+          "p": "Ce site n'utilise que les cookies nécessaires à son fonctionnement, comme celui qui mémorise votre langue et le cookie de session du personnel connecté. Il n'utilise aucun cookie publicitaire ni de suivi."
+        },
+        {
+          "h": "Gérer les cookies",
+          "p": "Vous pouvez supprimer ou bloquer les cookies dans les réglages de votre navigateur. Si vous bloquez le cookie de langue, le site vous le redemandera lors de votre prochaine visite."
+        },
+        {
+          "h": "Modifications",
+          "p": "Si nous ajoutons de l'analytique ou d'autres cookies optionnels, nous vous demanderons d'abord votre consentement et mettrons cette page à jour."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Conditions générales",
+      "lead": "Les règles d'utilisation de ce site.",
+      "sections": [
+        {
+          "h": "Utilisation du site",
+          "p": "Vous pouvez utiliser ce site à des fins licites. Merci de ne pas tenter de le perturber, d'accéder à des zones non publiques ni de détourner ses formulaires."
+        },
+        {
+          "h": "De l'information, pas du conseil",
+          "p": "Les articles et pages décrivent nos services et nos idées en termes généraux. Ils ne constituent pas un conseil professionnel adapté à votre situation."
+        },
+        {
+          "h": "Projets et devis",
+          "p": "Le travail pour les clients est régi par un accord ou un devis écrit distinct qui précise le périmètre, le prix et les responsabilités."
+        },
+        {
+          "h": "Modifications",
+          "p": "Nous pouvons mettre à jour le site et ces conditions de temps à autre. La date en bas de page indique la dernière version."
+        }
+      ]
+    }
+  },
+  "misvorAi": {
+    "eyebrow": "MISVOR AI",
+    "title": "Dites bonjour à MISVOR AI",
+    "body": "Décrivez une tâche avec des mots simples, comme relancer des factures ou trier des e-mails clients, et MISVOR AI vous aide à en faire un agent ou un workflow.",
+    "prompts": {
+      "p1": "Relancer les factures impayées",
+      "p2": "Trier les e-mails clients",
+      "p3": "Résumer de longs contrats"
+    },
+    "button": "Parler à MISVOR AI"
+  }
+}

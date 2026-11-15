@@ -1,0 +1,192 @@
+generator client {
+  provider      = "prisma-client-js"
+  // "native" for local/Docker (Debian) builds; rhel for Vercel's Amazon Linux
+  // runtime when the app is built elsewhere (e.g. CI + `vercel deploy --prebuilt`).
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  EDITOR
+  READER
+}
+
+enum ArticleStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum MediaType {
+  IMAGE
+  VIDEO
+  GALLERY
+}
+
+// Content locales. Kept as an enum (not a free-form string) so the DB
+// enforces the same set of languages the frontend routes on in i18n/routing.ts.
+enum Locale {
+  EN
+  ES
+  FR
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  role          Role      @default(READER)
+  createdAt     DateTime  @default(now())
+
+  accounts          Account[]
+  sessions          Session[]
+  pushSubscriptions PushSubscription[]
+  preferences       NotificationPreference?
+  authoredArticles  Article[]               @relation("ArticleAuthor")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Category {
+  id       String    @id @default(cuid())
+  name     String    @unique // default/Spanish label
+  nameEn   String?
+  nameFr   String?
+  slug     String    @unique
+  articles Article[]
+}
+
+model Article {
+  id             String        @id @default(cuid())
+  title          String
+  slug           String        @unique
+  excerpt        String
+  body           String        @db.Text
+  status         ArticleStatus @default(DRAFT)
+  locale         Locale        @default(ES)
+  coverMediaUrl  String?
+  coverMediaType MediaType     @default(IMAGE)
+  publishedAt    DateTime?
+  updatedAt      DateTime      @updatedAt
+  createdAt      DateTime      @default(now())
+
+  // Maintained by a Postgres trigger (see prisma/sql/enable-search.sql), not
+  // by Prisma or app code — `Unsupported` keeps it visible in the schema and
+  // in migrations without Prisma trying to type or write to it directly.
+  searchVector Unsupported("tsvector")?
+
+  authorId   String?
+  author     User?     @relation("ArticleAuthor", fields: [authorId], references: [id])
+  categoryId String?
+  category   Category? @relation(fields: [categoryId], references: [id])
+
+  media   ArticleMedia[]
+  notices NotificationLog[]
+
+  @@index([status, publishedAt])
+  @@index([locale, status, publishedAt])
+  // GIN index for full-text search. Created by the enable_fulltext_search
+  // migration (which also installs the trigger that fills searchVector);
+  // declared here so `prisma migrate dev` doesn't see it as drift and drop it.
+  @@index([searchVector], type: Gin)
+}
+
+model ArticleMedia {
+  id        String    @id @default(cuid())
+  articleId String
+  article   Article   @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  url       String
+  type      MediaType @default(IMAGE)
+  alt       String?
+  position  Int       @default(0)
+}
+
+model PushSubscription {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  endpoint  String   @unique
+  p256dh    String
+  auth      String
+  createdAt DateTime @default(now())
+}
+
+model NotificationPreference {
+  id             String   @id @default(cuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  webPushEnabled Boolean  @default(true)
+  emailEnabled   Boolean  @default(true)
+  categoryIds    String[] @default([])
+}
+
+model NotificationLog {
+  id             String   @id @default(cuid())
+  articleId      String
+  article        Article  @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  channel        String
+  recipientCount Int      @default(0)
+  sentAt         DateTime @default(now())
+}
+
+// Inbound + outbound webhook configuration, used for n8n workflows
+model WebhookEndpoint {
+  id        String   @id @default(cuid())
+  label     String
+  url       String
+  event     String // e.g. "article.published", "article.updated"
+  secret    String
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
+
+model WebhookDelivery {
+  id           String   @id @default(cuid())
+  endpointId   String
+  event        String
+  payload      Json
+  responseCode Int?
+  success      Boolean  @default(false)
+  createdAt    DateTime @default(now())
+}

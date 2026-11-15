@@ -1,0 +1,98 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Lint, types, tests, migrations, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: ogsp
+          POSTGRES_PASSWORD: ogsp
+          POSTGRES_DB: ogsp_news
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ogsp -d ogsp_news"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 15
+    env:
+      DATABASE_URL: postgresql://ogsp:ogsp@localhost:5432/ogsp_news
+      PGPASSWORD: ogsp
+      AUTH_SECRET: ci-only-secret
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx prisma validate
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+
+      # Real database checks: the migrations apply cleanly from scratch, the
+      # seed script runs, and full-text search behaves as expected.
+      - run: npx prisma migrate deploy
+      - run: npm run seed
+      - name: Verify full-text search
+        run: psql -h localhost -U ogsp -d ogsp_news -v ON_ERROR_STOP=1 -f scripts/verify-search.sql
+
+      # The build reads the database while prerendering the home page, so it runs
+      # after the migrations above.
+      - run: npm run build
+
+  docker:
+    name: Docker image and smoke test
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      AUTH_SECRET: ci-only-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - name: Build and start the stack (db, migrate, app)
+        run: docker compose --profile app up -d --build
+      - name: Wait for the app to be healthy (including the database)
+        run: |
+          for i in $(seq 1 60); do
+            if curl -fsS "http://localhost:3000/api/health?deep=1" >/dev/null; then echo "healthy"; exit 0; fi
+            sleep 2
+          done
+          echo "app did not become healthy"; exit 1
+      - name: Smoke test
+        run: |
+          set -e
+          expect() { code=$(curl -s -o /dev/null -w '%{http_code}' "$2"); [ "$code" = "$1" ] || { echo "FAIL $2 -> $code (wanted $1)"; exit 1; }; echo "ok   $2 -> $code"; }
+          expect 200 http://localhost:3000/es
+          expect 200 http://localhost:3000/en
+          expect 200 http://localhost:3000/fr
+          expect 307 http://localhost:3000/
+          expect 307 http://localhost:3000/admin
+          expect 200 http://localhost:3000/admin/login
+          expect 200 "http://localhost:3000/api/search?q=iva&locale=es"
+          expect 400 "http://localhost:3000/api/articles?locale=xx"
+      - name: Show logs on failure
+        if: failure()
+        run: docker compose --profile app logs --no-color
+      - name: Tear down
+        if: always()
+        run: docker compose --profile app down -v

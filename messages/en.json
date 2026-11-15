@@ -1,0 +1,801 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About us",
+    "aboutUs": "About MISVOR",
+    "pricing": "Plans & pricing",
+    "resources": "Resources",
+    "blog": "Blog",
+    "faqs": "FAQs",
+    "contact": "Contact",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "founder": "Founder"
+  },
+  "header": {
+    "quote": "Start a project",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "search": "Search",
+    "language": "Language"
+  },
+  "footer": {
+    "companyHeading": "MISVOR",
+    "tagline": "AI and automation for every industry",
+    "internalAccess": "Staff login",
+    "location": "Valencia, Spain",
+    "solutionsHeading": "Solutions",
+    "industriesHeading": "Industries",
+    "blurb": "We design, build and run the agents and workflows that take repetitive work off your team.",
+    "languages": "English · Français · Español"
+  },
+  "legal": {
+    "notice": "Legal notice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
+    "terms": "General terms"
+  },
+  "hero": {
+    "headline": "We automate the work behind every industry",
+    "lead": "MISVOR designs, builds and runs AI agents and automation workflows for companies in every field. Repetitive work moves off your team and onto systems you own.",
+    "primary": "Start a project",
+    "secondary": "Explore solutions",
+    "eyebrow": "AI and automation, worldwide",
+    "card": {
+      "aiAgents": "Assistants that act",
+      "workflowAutomation": "Processes on autopilot",
+      "documentIntelligence": "Read, sort, file",
+      "dataAnalytics": "Clear, live numbers"
+    }
+  },
+  "news": {
+    "heading": "Stay up to date",
+    "viewAll": "View all",
+    "placeholderTitle": "Sample article headline"
+  },
+  "newsletter": {
+    "heading": "Subscribe to our newsletter",
+    "value1": "New AI and automation ideas",
+    "value2": "Lessons from real projects",
+    "value3": "Tips to save your team time",
+    "placeholder": "you@email.com",
+    "subscribe": "Subscribe",
+    "thanks": "Thanks, check your inbox to confirm.",
+    "disclaimer": "We'll use your data to send you the newsletter. For more information about how we handle it and your rights, see our",
+    "privacyLink": "privacy policy"
+  },
+  "mobileCta": {
+    "quote": "Start a project"
+  },
+  "whatsapp": {
+    "message": "Hi MISVOR, I would like to talk about automating a process.",
+    "ariaLabel": "Contact us on WhatsApp"
+  },
+  "search": {
+    "placeholder": "Search articles and services…",
+    "ariaLabel": "Search",
+    "viewAllResults": "See all results for \"{query}\"",
+    "noResults": "No results found",
+    "loading": "Searching…",
+    "pageTitle": "Search",
+    "resultsFor": "Results for \"{query}\"",
+    "resultsCount": "{count, plural, =0 {No results} one {# result} other {# results}}",
+    "allCategories": "All categories",
+    "filterByCategory": "Filter by category",
+    "emptyStateHint": "Try different keywords or clear a filter.",
+    "startTyping": "Start typing to search articles and service pages.",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "pageOf": "Page {page} of {totalPages}",
+    "searchButton": "Search"
+  },
+  "preferences": {
+    "heading": "Notification preferences",
+    "subheading": "Choose how you'd like to hear about new articles.",
+    "pushTitle": "Push notifications",
+    "pushDescription": "Get notified in your browser the moment we publish.",
+    "enable": "Enable",
+    "disable": "Disable",
+    "requesting": "Requesting permission…",
+    "denied": "Permission denied.",
+    "enabled": "Push notifications enabled.",
+    "disabled": "Push notifications disabled.",
+    "emailNote": "Email preferences are managed from your account after signing in."
+  },
+  "meta": {
+    "title": "MISVOR | AI and automation for every industry",
+    "description": "MISVOR designs, builds and runs AI agents and automation workflows for companies in every field. Based in Valencia, working worldwide."
+  },
+  "capabilities": {
+    "heading": "One partner for every layer of automation",
+    "intro": "From the agent that answers a customer to the pipeline that keeps it running, we build and operate the whole stack.",
+    "learnMore": "Learn more"
+  },
+  "features": {
+    "agents": {
+      "eyebrow": "AI agents",
+      "title": "An AI agent for every desk",
+      "body": "Agents read your documents, answer your customers and act inside the tools you already use. They run on your infrastructure, with your rules and a human in the loop wherever it matters.",
+      "cta": "Meet the AI agents"
+    },
+    "workflows": {
+      "eyebrow": "Workflow automation",
+      "title": "Workflows that run themselves",
+      "body": "Invoices, onboarding, reporting, approvals. We map the process, wire your systems together and monitor the result, so work moves forward without anyone chasing it.",
+      "cta": "See workflow automation"
+    },
+    "data": {
+      "eyebrow": "Data and analytics",
+      "title": "Numbers you can trust, live",
+      "body": "Clean data pipelines and dashboards turn scattered spreadsheets into one source of truth, with forecasts when the data supports them.",
+      "cta": "Explore data and analytics"
+    },
+    "tabsLabel": "Featured capabilities"
+  },
+  "industriesSection": {
+    "heading": "Every field has work worth automating",
+    "intro": "The building blocks are the same everywhere. We adapt them to the language, rules and tools of your sector."
+  },
+  "process": {
+    "heading": "From first call to running system",
+    "intro": "A short, predictable path with working software at every stage.",
+    "discover": {
+      "title": "Discover",
+      "body": "We map your process, tools and constraints, then pick the work that pays back first."
+    },
+    "prototype": {
+      "title": "Prototype",
+      "body": "A working version on real data, early enough to change course."
+    },
+    "deploy": {
+      "title": "Deploy",
+      "body": "We ship to your cloud or ours, with security, access control and monitoring built in."
+    },
+    "operate": {
+      "title": "Operate",
+      "body": "We watch, tune and extend the system as your business changes."
+    }
+  },
+  "stack": {
+    "heading": "Tools we build with"
+  },
+  "cta": {
+    "heading": "Tell us what slows your team down",
+    "body": "Describe one process you wish ran itself. We reply with a plan, not a sales pitch.",
+    "primary": "Start a project",
+    "secondary": "See plans"
+  },
+  "pageLabels": {
+    "solutionsEyebrow": "Solutions",
+    "industriesEyebrow": "Industries",
+    "startProject": "Start a project",
+    "seePlans": "See plans",
+    "overview": "Overview",
+    "outcome": "What changes",
+    "whatWeBuild": "What we build",
+    "typicalStack": "Typical stack",
+    "howItWorks": "How it works",
+    "howItWorksIntro": "A typical engagement, in three moves.",
+    "relatedIndustries": "Where it is used",
+    "relatedSolutions": "Solutions that fit",
+    "whatWeAutomate": "What we automate",
+    "example": "A typical flow"
+  },
+  "solutionsPage": {
+    "eyebrow": "Solutions",
+    "title": "AI and automation, built end to end",
+    "lead": "Six capabilities that combine into systems doing real work for your business.",
+    "cta": "Start a project"
+  },
+  "industriesPage": {
+    "eyebrow": "Industries",
+    "title": "Built for every field",
+    "lead": "MISVOR works wherever people repeat steps that software can learn. Pick your sector to see what we automate.",
+    "cta": "Start a project"
+  },
+  "cities": {
+    "valencia": "Valencia",
+    "tokyo": "Tokyo",
+    "prague": "Prague",
+    "sanJose": "San Jose",
+    "douala": "Douala",
+    "pune": "Pune"
+  },
+  "solutionPages": {
+    "aiAgents": {
+      "title": "AI agents",
+      "short": "Assistants that read, decide and act inside the tools your team already uses.",
+      "lead": "Agents that answer customers, triage requests and carry out tasks, with a human in the loop wherever it matters.",
+      "overview": "An agent is more than a chatbot. It understands a request, looks things up in your systems, takes the next step and hands over to a person when it should. We build agents on your data, with clear limits on what they may do, and we measure them like any other part of your team.",
+      "build": [
+        "Customer and staff assistants on web, email and WhatsApp",
+        "Request triage that routes work to the right person",
+        "Agents that act in your CRM, ERP and ticketing tools",
+        "Evaluation and guardrails so answers stay accurate and on policy"
+      ],
+      "steps": [
+        "We pick one repetitive conversation or task and define what a good result looks like.",
+        "We build the agent on your documents and systems, then test it against real examples.",
+        "It goes live with logging, review queues and a simple way to correct it."
+      ],
+      "outcome": "Routine requests answered in seconds, and people free for the work that needs them."
+    },
+    "workflowAutomation": {
+      "title": "Workflow automation",
+      "short": "Processes that move forward on their own, from trigger to finished task.",
+      "lead": "Invoices, onboarding, approvals and reports that run without anyone chasing them.",
+      "overview": "Most companies run on a web of emails, spreadsheets and reminders. We map that web, connect your systems and automate the steps in between, with alerts when something needs a human. Every workflow is monitored and documented, so it keeps working after we leave.",
+      "build": [
+        "Integrations between the tools you already pay for",
+        "Approval flows, reminders and status updates",
+        "Scheduled reports and data syncs",
+        "Monitoring, retries and clear alerts when a step fails"
+      ],
+      "steps": [
+        "We map how the work really flows today, including the exceptions.",
+        "We automate the repeatable path and design a clean route for exceptions.",
+        "We monitor the workflow and tune it as your process changes."
+      ],
+      "outcome": "Fewer handoffs, fewer errors and work that no longer waits for someone to remember."
+    },
+    "documentIntelligence": {
+      "title": "Document intelligence",
+      "short": "Invoices, contracts and forms read, checked and filed automatically.",
+      "lead": "Turn piles of PDFs, scans and emails into structured data your systems can use.",
+      "overview": "Documents are where manual work hides. We build pipelines that read incoming files, extract the fields that matter, check them against your rules and file them in the right place. They can run on your own servers, so sensitive documents never leave your control.",
+      "build": [
+        "Reading of invoices, bills of lading, payslips and contracts",
+        "Validation against your rules, with exceptions sent to a person",
+        "Search across your archive in plain language",
+        "Private deployment on your own infrastructure"
+      ],
+      "steps": [
+        "We collect a sample of your real documents, including the messy ones.",
+        "We tune extraction and validation until the results match your checks.",
+        "Documents flow in, data flows out, and exceptions land in a review queue."
+      ],
+      "outcome": "Hours of typing replaced by a review queue that takes minutes."
+    },
+    "dataAnalytics": {
+      "title": "Data and analytics",
+      "short": "Clean pipelines and live dashboards that give you one version of the truth.",
+      "lead": "Bring scattered spreadsheets and systems together, then see what is really happening.",
+      "overview": "Good decisions need numbers you can trust. We build the pipelines that collect and clean your data, the models that find patterns in it and the dashboards that put it in front of the right people. Forecasts come only when the data supports them.",
+      "build": [
+        "Data pipelines with cleaning and quality checks",
+        "Dashboards for finance, operations and sales",
+        "Forecasting and anomaly detection where the data allows",
+        "Reports that arrive on schedule without anyone building them"
+      ],
+      "steps": [
+        "We list the questions you need answered and where the data lives.",
+        "We connect and clean the sources, and agree on one definition for each number.",
+        "Dashboards and alerts go live, and we keep refining them with your team."
+      ],
+      "outcome": "One source of truth that everyone reads from."
+    },
+    "cloudDevops": {
+      "title": "Cloud and DevOps",
+      "short": "Reliable, scalable infrastructure that your automation can stand on.",
+      "lead": "Cloud foundations, pipelines and monitoring built for uptime and sensible cost.",
+      "overview": "Automation is only as dependable as what it runs on. We design cloud infrastructure as code, automate your releases and set up monitoring that tells you about problems before your users do. We work across AWS and Google Cloud, with Kubernetes where it earns its place.",
+      "build": [
+        "Infrastructure as code with Terraform and Ansible",
+        "CI/CD pipelines that ship safely and often",
+        "Containers and Kubernetes where they fit",
+        "Monitoring, alerting and cost control"
+      ],
+      "steps": [
+        "We review what you run today and where it is fragile or expensive.",
+        "We rebuild the foundations as code and automate builds, tests and releases.",
+        "We watch the system, respond to alerts and keep costs in check."
+      ],
+      "outcome": "Systems that stay up, release without drama and cost what they should."
+    },
+    "securityCompliance": {
+      "title": "Security and compliance",
+      "short": "Access control, protection and audit trails built in from the first day.",
+      "lead": "Automation that satisfies your security team and your regulators.",
+      "overview": "Every automation touches data, so security has to be part of the design. We apply least-privilege access, strong authentication, encryption and testing from the start, and prepare the evidence you need for GDPR and ISO 27001 style audits.",
+      "build": [
+        "Identity and access management with least privilege and MFA",
+        "Security testing and code scanning in your pipelines",
+        "Encrypted storage, backups and recovery plans",
+        "Policies and evidence for GDPR and ISO 27001"
+      ],
+      "steps": [
+        "We map what data you hold, who touches it and where the risks are.",
+        "We close the gaps with access controls, encryption and automated checks.",
+        "We keep testing and reporting so compliance stays current."
+      ],
+      "outcome": "Automation your security team can approve and your auditors can trace."
+    }
+  },
+  "industryPages": {
+    "finance": {
+      "title": "Finance, accounting and legal",
+      "short": "Close faster and keep every document under control.",
+      "lead": "Automation for teams that handle money, contracts and deadlines.",
+      "overview": "Finance and legal work runs on documents, rules and deadlines, which is exactly where automation pays back. We read and post invoices, reconcile accounts, track obligations and answer routine questions, all with the audit trail these teams need.",
+      "automate": [
+        "Invoice and receipt capture with automatic posting",
+        "Reconciliation and month-end reporting",
+        "Contract review and deadline tracking",
+        "Client onboarding and document requests"
+      ],
+      "example": "A supplier invoice arrives by email, the agent reads it, matches it to the purchase order, posts it to the ledger and asks a person only when something does not match."
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "short": "Less paperwork between clinicians and patients.",
+      "lead": "Automation that gives care teams their time back while keeping patient data private.",
+      "overview": "Clinics and health companies lose hours to forms, scheduling and records. We automate the administrative load around care, with strict access control and private deployment so sensitive data stays where it belongs.",
+      "automate": [
+        "Appointment booking, reminders and follow-ups",
+        "Intake forms and referral letters read into records",
+        "Insurance and billing paperwork",
+        "Reporting for operations and compliance"
+      ],
+      "example": "A patient messages to rebook, the assistant offers open slots, confirms the change, updates the schedule and sends a reminder the day before."
+    },
+    "logistics": {
+      "title": "Logistics and freight",
+      "short": "Shipping documents handled in minutes, not hours.",
+      "lead": "From bills of lading to delivery updates, automation for the paperwork that moves goods.",
+      "overview": "Freight runs on documents in dozens of formats and languages. We build pipelines that read them, check them and feed your systems, and workflows that keep customers informed without a call centre.",
+      "automate": [
+        "Reading of bills of lading, invoices and customs forms",
+        "Shipment tracking and customer status updates",
+        "Carrier quotes and booking workflows",
+        "Exception alerts for delays and mismatches"
+      ],
+      "example": "A bill of lading lands in the shared inbox, the pipeline extracts the consignee, weights and references, checks them against the booking and flags only the differences."
+    },
+    "retail": {
+      "title": "Retail and e-commerce",
+      "short": "Stores that run smoothly behind the scenes.",
+      "lead": "Automation for catalogues, orders and customer service across your sales channels.",
+      "overview": "Online shops juggle products, stock, orders and questions every day. We automate testing, catalogue updates, order handling and support, across platforms such as Shopify and Shopware, so launches and campaigns do not break anything.",
+      "automate": [
+        "Catalogue and price updates across channels",
+        "Order routing, returns and customer messages",
+        "Automated testing of storefronts before every release",
+        "Sales and stock dashboards"
+      ],
+      "example": "A customer asks where their order is, the assistant checks the carrier, answers in their language and opens a ticket only if the parcel is late."
+    },
+    "media": {
+      "title": "Media and publishing",
+      "short": "Publish faster and reach readers with the right story.",
+      "lead": "Automation for newsrooms, creators and content teams.",
+      "overview": "Content teams spend their days on formatting, distribution and follow-ups. We automate the pipeline from draft to publication, personalise what each reader sees and handle notifications, so editors can focus on the story.",
+      "automate": [
+        "Drafting, summarising and translation assistance",
+        "Publishing workflows across web, email and social",
+        "Personalised push notifications and newsletters",
+        "Audience reports and content performance"
+      ],
+      "example": "A story is approved, the workflow publishes it, creates summaries in three languages and sends push notifications to the readers who follow that topic."
+    },
+    "education": {
+      "title": "Education",
+      "short": "More teaching, less administration.",
+      "lead": "Automation and assistants for schools, universities and training providers.",
+      "overview": "Educators lose time to enrolment, timetabling and repeated student questions. We build assistants and workflows that handle the routine, plus dashboards that show where students need support.",
+      "automate": [
+        "Student and staff assistants for common questions",
+        "Enrolment, documents and certificates",
+        "Lab and course environments set up automatically",
+        "Progress and attendance reporting"
+      ],
+      "example": "A student asks about deadlines, the assistant answers from the course handbook, and sends the request to staff if it needs a decision."
+    },
+    "manufacturing": {
+      "title": "Manufacturing and energy",
+      "short": "Connect the factory floor to the office.",
+      "lead": "Automation for operations, maintenance and reporting in industrial settings.",
+      "overview": "Plants produce data all day, but it rarely reaches the people who can act on it. We connect machines, systems and teams, automate reports and maintenance requests, and build infrastructure that stays up around the clock.",
+      "automate": [
+        "Production and quality reporting",
+        "Maintenance requests and spare-part ordering",
+        "Alerts when readings drift out of range",
+        "Inventory and supplier coordination"
+      ],
+      "example": "A sensor reading drifts, the workflow opens a maintenance ticket, notifies the shift lead and orders the part if stock is low."
+    },
+    "professional": {
+      "title": "Professional services",
+      "short": "Firms and agencies that deliver more with the same team.",
+      "lead": "Automation for consultants, agencies, advisors and small firms.",
+      "overview": "Service firms sell expertise, yet lose hours to onboarding, reporting and chasing clients. We automate those tasks, add assistants that prepare answers for your people and keep client documents organised and secure.",
+      "automate": [
+        "Client onboarding and document collection",
+        "Recurring reports and status updates",
+        "Drafting assistants that prepare first versions",
+        "Deadline reminders and billing workflows"
+      ],
+      "example": "A new client signs, the workflow creates their folder, sends the document checklist, tracks what is missing and reminds them until it is complete."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "About MISVOR",
+    "title": "A technology company for every kind of work",
+    "lead": "MISVOR builds the AI and automation that lets organisations in any field spend their time on what matters.",
+    "storyTitle": "Why MISVOR exists",
+    "story1": "Every industry has the same hidden problem. Skilled people spend their days on repetitive steps, copying data between systems, chasing approvals and reading the same documents again and again. Software can take that on, if it is built around how the work really happens.",
+    "story2": "MISVOR is based in Valencia and works with teams around the world. We combine AI, automation and solid engineering, so what we deliver is secure, documented and ready for your team to own.",
+    "founderCta": "Meet the founder",
+    "whereTitle": "Based in Valencia, working worldwide",
+    "whereBody": "The founder has delivered projects from these cities. We work in English and French, with Spanish and Japanese also spoken.",
+    "valuesTitle": "How we work",
+    "valuesIntro": "Four principles guide every project.",
+    "values": {
+      "useful": {
+        "title": "Useful before clever",
+        "body": "We start with the task that costs you the most time and choose the simplest tool that solves it."
+      },
+      "yours": {
+        "title": "Your data stays yours",
+        "body": "Systems can run on your own infrastructure, and access is limited to what each person needs."
+      },
+      "human": {
+        "title": "People stay in the loop",
+        "body": "Agents ask for help when they are unsure, and every important action can be reviewed."
+      },
+      "handover": {
+        "title": "Built to be handed over",
+        "body": "Everything is documented and tested, so your team can run it without us."
+      }
+    }
+  },
+  "founderPage": {
+    "eyebrow": "Who builds it",
+    "title": "Meet the founder",
+    "lead": "Elad Anedo Daudet Ikeorah builds secure, automated systems for teams across four continents.",
+    "name": "Elad Anedo Daudet Ikeorah",
+    "role": "Founder and lead engineer",
+    "heading": "An engineer who has run the systems he builds",
+    "body1": "Elad has spent more than six years building secure, automated systems for teams in Cameroon, Germany, Japan, India, Spain and the United States. His work spans DevOps, cloud infrastructure, security operations, data engineering and AI automation.",
+    "body2": "That mix matters. An AI agent is only useful when it runs on reliable infrastructure, handles data safely and fits the way people work. He designs all three together, and works in English and French, with Spanish and Japanese also spoken.",
+    "stats": {
+      "uptime": {
+        "value": "99.9%+",
+        "label": "Uptime on production systems"
+      },
+      "sites": {
+        "value": "50+",
+        "label": "Sites deployed with infrastructure as code"
+      },
+      "applicants": {
+        "value": "2,000+",
+        "label": "Applicants screened by one n8n workflow"
+      },
+      "cost": {
+        "value": "40%",
+        "label": "Cost reduction delivered, at best"
+      }
+    },
+    "mscTitle": "M.Sc. Computer Science",
+    "mscIssuer": "MIT World Peace University, Pune",
+    "mscNote": "Excellent Distinction, two merit scholarships",
+    "ciscoTitle": "Cisco CyberOps Associate",
+    "ciscoIssuer": "Cisco Systems",
+    "ciscoNote": "Security operations",
+    "googleTitle": "Google AI Professional",
+    "googleIssuer": "Google",
+    "googleNote": "Applied AI",
+    "languagesTitle": "Four languages",
+    "languagesIssuer": "English, French, Spanish, Japanese",
+    "languagesNote": "Fluent in English and French, growing in Spanish and Japanese",
+    "timelineTitle": "Experience",
+    "timelineIntro": "A path through DevOps, security, data and AI, across companies and continents.",
+    "roles": {
+      "hosono": {
+        "when": "Oct 2025 – Jun 2026",
+        "title": "Technical Support and Automation Engineer",
+        "where": "Hosono DE · Tokyo, Japan",
+        "body": "Built n8n and Ansible automations for testing, tracking and server inventory across Shopify and Shopware client sites, and refined an internal LLM agent for a distributed team."
+      },
+      "abinbev": {
+        "when": "Feb 2024 – Aug 2024",
+        "title": "Data and Automation Engineer",
+        "where": "AB InBev · Remote project",
+        "body": "Automated screening of 2,000+ applicants with n8n, saving over 20 hours of manual review, and built Python pipelines that reached 99.9% data integrity."
+      },
+      "cisco": {
+        "when": "Jun 2023 – Nov 2023",
+        "title": "CyberOps Engineer",
+        "where": "Cisco Systems · Remote project",
+        "body": "Cut mean time to respond by 20% by improving SOAR playbooks, and automated secure network deployment across 50+ sites with Ansible and Terraform."
+      },
+      "rocket": {
+        "when": "Jul 2021 – Sep 2022",
+        "title": "Full Stack Developer",
+        "where": "Rocket 234 · Douala, Cameroon",
+        "body": "Delivered full-stack systems with up to 99.99% availability and cut release cycles by over 20% by automating CI/CD."
+      },
+      "mistercomp": {
+        "when": "Feb 2021 – present",
+        "title": "Lead DevOps Consultant",
+        "where": "MisterComp Cameroon · Freelance",
+        "body": "Consulting across cybersecurity, networking, cloud infrastructure and hardware, with 99.9% operational continuity."
+      }
+    },
+    "skillsTitle": "Tools and strengths",
+    "skills": {
+      "automation": {
+        "title": "AI and automation",
+        "items": "n8n, Make.com, LangChain, OpenAI API, Hugging Face, UiPath, Robocorp"
+      },
+      "cloud": {
+        "title": "Cloud and DevOps",
+        "items": "AWS, Google Cloud, Kubernetes, Docker, Terraform, Ansible, GitLab CI/CD, GitHub Actions"
+      },
+      "code": {
+        "title": "Code and data",
+        "items": "Python, TypeScript, SQL, FastAPI, Django, Angular, Pandas, scikit-learn"
+      },
+      "security": {
+        "title": "Security and compliance",
+        "items": "IAM, MFA, Zero Trust, OWASP ZAP, SonarQube, GDPR, ISO 27001, SOC 2"
+      },
+      "data": {
+        "title": "Monitoring and testing",
+        "items": "Prometheus, Grafana, Datadog, Power BI, Playwright, Cypress"
+      }
+    },
+    "educationTitle": "Education",
+    "educationBody": "M.Sc. in Computer Science, MIT World Peace University (Pune). B.Tech in Software Engineering, University of Buea. Cisco Networking Academy.",
+    "contactCta": "Talk to Elad"
+  },
+  "pricingPage": {
+    "eyebrow": "Plans and pricing",
+    "title": "Engagements that fit the size of the problem",
+    "lead": "Start small, prove the value, then grow. Every project is quoted after a short discovery call.",
+    "popular": "Most chosen",
+    "cta": "Request a quote",
+    "note": "Prices depend on scope, systems and data involved. We give a fixed quote for each phase after a free first call, so there are no surprises.",
+    "pilot": {
+      "name": "Pilot",
+      "tagline": "Prove it on one process",
+      "body": "A focused pilot on a single workflow or agent, from scoping to a working prototype on your data.",
+      "includes": [
+        "Discovery workshop",
+        "Working prototype on real data",
+        "Success metrics and short report",
+        "Handover notes"
+      ],
+      "price": "Fixed quote"
+    },
+    "build": {
+      "name": "Build",
+      "tagline": "A production system",
+      "body": "A complete automation or AI system, integrated with your tools, secured and documented.",
+      "includes": [
+        "Architecture and integrations",
+        "Security and access control",
+        "Testing and monitoring",
+        "Team training and documentation"
+      ],
+      "price": "Fixed quote per phase"
+    },
+    "partner": {
+      "name": "Partner",
+      "tagline": "An automation team on call",
+      "body": "A standing team that keeps extending and operating your automation as your business changes.",
+      "includes": [
+        "Monthly roadmap and review",
+        "Operations and support",
+        "New workflows every cycle",
+        "Priority response"
+      ],
+      "price": "Monthly retainer"
+    },
+    "faqTitle": "Common questions",
+    "faq": [
+      {
+        "q": "Can we start with something small?",
+        "a": "Yes. Most clients begin with a pilot on one process, then expand once the results are clear."
+      },
+      {
+        "q": "Who owns the systems you build?",
+        "a": "You do. We document everything and hand over the code, configuration and access, so you are never locked in."
+      },
+      {
+        "q": "Can it run on our own servers?",
+        "a": "Yes. We can deploy in your cloud account or on your own infrastructure, which is often the right choice for sensitive documents."
+      },
+      {
+        "q": "How long does a pilot take?",
+        "a": "It depends on the process, but we aim for a working prototype early enough that you can judge it on real data and change direction if needed."
+      }
+    ]
+  },
+  "faqPage": {
+    "eyebrow": "Resources",
+    "title": "Frequently asked questions",
+    "lead": "Straight answers about how we work.",
+    "items": [
+      {
+        "q": "What does MISVOR do?",
+        "a": "We design, build and run AI agents and automation workflows for organisations in any field, together with the cloud, data and security work they depend on."
+      },
+      {
+        "q": "Do we need to be a technology company to work with you?",
+        "a": "No. Most of our clients are not. We work with teams in finance, healthcare, logistics, retail, media, education and more, and we explain things in plain language."
+      },
+      {
+        "q": "Where will our data go?",
+        "a": "Wherever you decide. We can run everything inside your own cloud account or servers, and models can be hosted privately when documents are sensitive."
+      },
+      {
+        "q": "Will the AI make mistakes?",
+        "a": "Sometimes, which is why we design for it. Agents work within clear limits, log what they do and pass uncertain cases to a person."
+      },
+      {
+        "q": "Which tools do you use?",
+        "a": "We choose what fits, often n8n, Python, LangChain, PostgreSQL and the main clouds. We work with the systems you already have."
+      },
+      {
+        "q": "How do you handle security and GDPR?",
+        "a": "Access is limited to what each person needs, data is encrypted, and we prepare the documentation you need for GDPR and ISO 27001 style reviews."
+      },
+      {
+        "q": "Can you support us after launch?",
+        "a": "Yes. Many clients keep us on a monthly plan to monitor, tune and extend what we built."
+      },
+      {
+        "q": "Which languages do you work in?",
+        "a": "English and French day to day, with Spanish and Japanese also spoken."
+      },
+      {
+        "q": "How do we start?",
+        "a": "Send us a short description of the process you want to improve. We reply with questions and a proposal for a pilot."
+      }
+    ]
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Tell us what you would like to automate",
+    "lead": "A few lines are enough. We reply with questions and a plan, not a sales pitch.",
+    "formTitle": "Send us a message",
+    "formIntro": "Describe the process, the tools involved and what a good result looks like.",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "topic": "Area of interest",
+    "topicPlaceholder": "Choose one",
+    "topicOther": "Something else",
+    "message": "Message",
+    "messagePlaceholder": "What takes too much of your team's time?",
+    "send": "Send message",
+    "sending": "Sending…",
+    "thanksTitle": "Thank you",
+    "thanksBody": "Your message is on its way. We will reply by email soon.",
+    "error": "We could not send your message. Please email us directly or try again later.",
+    "emailLabel": "Email",
+    "whatsappValue": "Chat with us",
+    "whatsappMessage": "Hi MISVOR, I would like to talk about automating a process.",
+    "locationLabel": "Based in",
+    "languagesLabel": "Languages",
+    "languagesValue": "English, French",
+    "reply": "We read every message and reply as soon as we can."
+  },
+  "blogPage": {
+    "eyebrow": "Resources",
+    "title": "Insights",
+    "lead": "Notes on AI, automation and building systems that last.",
+    "empty": "No articles yet. Check back soon.",
+    "prev": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {pages}"
+  },
+  "legalPages": {
+    "eyebrow": "Legal",
+    "updated": "Last updated November 2026.",
+    "notice": {
+      "title": "Legal notice",
+      "lead": "Who runs this website.",
+      "sections": [
+        {
+          "h": "Operator",
+          "p": "This website is operated by MISVOR, based in {location}. You can reach us at {email}."
+        },
+        {
+          "h": "Intellectual property",
+          "p": "The content, design and logo on this site belong to MISVOR unless stated otherwise. Please ask before reusing them."
+        },
+        {
+          "h": "Liability",
+          "p": "We work to keep the information on this site accurate and up to date, but it is provided for general information and does not constitute a contract or professional advice."
+        },
+        {
+          "h": "Links to other sites",
+          "p": "This site may link to third-party websites. We are not responsible for their content or privacy practices."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "lead": "How we handle your personal data.",
+      "sections": [
+        {
+          "h": "Who is responsible",
+          "p": "MISVOR, based in {location}, is responsible for the data collected on this site. Contact: {email}."
+        },
+        {
+          "h": "What we collect",
+          "p": "Only what you send us: the details in the contact form, your email if you subscribe to the newsletter and the notification preferences you choose."
+        },
+        {
+          "h": "Why we use it",
+          "p": "To answer your enquiry, to send the newsletter you asked for and to keep the site secure. We do not sell your data."
+        },
+        {
+          "h": "Who processes it",
+          "p": "We use service providers such as email delivery and hosting services, who process data on our behalf under appropriate agreements."
+        },
+        {
+          "h": "How long we keep it",
+          "p": "Enquiries are kept for as long as needed to handle them and for a reasonable period afterwards. Newsletter data is kept until you unsubscribe."
+        },
+        {
+          "h": "Your rights",
+          "p": "You can ask us to access, correct, delete or export your data, and to restrict or object to its use. Write to {email}. You may also complain to your data protection authority."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie policy",
+      "lead": "What this site stores in your browser.",
+      "sections": [
+        {
+          "h": "Essential cookies only",
+          "p": "This site uses only the cookies it needs to work, such as the one that remembers your language and the session cookie for staff who sign in. It does not use advertising or tracking cookies."
+        },
+        {
+          "h": "Managing cookies",
+          "p": "You can delete or block cookies in your browser settings. If you block the language cookie, the site will ask again on your next visit."
+        },
+        {
+          "h": "Changes",
+          "p": "If we add analytics or other optional cookies, we will ask for your consent first and update this page."
+        }
+      ]
+    },
+    "terms": {
+      "title": "General terms",
+      "lead": "The rules for using this website.",
+      "sections": [
+        {
+          "h": "Use of the site",
+          "p": "You may use this site for lawful purposes. Please do not attempt to disrupt it, access areas that are not public or misuse its forms."
+        },
+        {
+          "h": "Information, not advice",
+          "p": "Articles and pages describe our services and ideas in general terms. They are not professional advice for your specific situation."
+        },
+        {
+          "h": "Projects and quotes",
+          "p": "Work for clients is governed by a separate written agreement or quote that sets out scope, price and responsibilities."
+        },
+        {
+          "h": "Changes",
+          "p": "We may update the site and these terms from time to time. The date at the bottom shows the latest version."
+        }
+      ]
+    }
+  },
+  "misvorAi": {
+    "eyebrow": "MISVOR AI",
+    "title": "Say hello to MISVOR AI",
+    "body": "Describe a task in plain words, such as chasing invoices or sorting customer emails, and MISVOR AI helps you shape it into an agent or a workflow.",
+    "prompts": {
+      "p1": "Chase unpaid invoices",
+      "p2": "Sort customer emails",
+      "p3": "Summarise long contracts"
+    },
+    "button": "Talk to MISVOR AI"
+  }
+}

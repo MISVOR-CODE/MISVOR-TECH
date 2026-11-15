@@ -1,0 +1,60 @@
+# `docker compose up -d`                 -> just the database (local development)
+# `docker compose --profile app up --build`  -> database + migrations + the built app
+#                                             (production-like, on http://localhost:3000)
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ogsp
+      POSTGRES_PASSWORD: ogsp
+      POSTGRES_DB: ogsp_news
+    ports:
+      - "5432:5432"
+    volumes:
+      - ogsp_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ogsp -d ogsp_news"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+
+  migrate:
+    profiles: ["app"]
+    build:
+      context: .
+      target: migrate
+    environment:
+      DATABASE_URL: postgresql://ogsp:ogsp@db:5432/ogsp_news
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  app:
+    profiles: ["app"]
+    build:
+      context: .
+      target: runner
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+        NEXT_PUBLIC_VAPID_PUBLIC_KEY: ${NEXT_PUBLIC_VAPID_PUBLIC_KEY:-}
+    ports:
+      - "3000:3000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # Inside the compose network the database host is "db", not localhost.
+      DATABASE_URL: postgresql://ogsp:ogsp@db:5432/ogsp_news
+      # Required when running production mode behind any proxy or on a non-Vercel host.
+      AUTH_TRUST_HOST: "true"
+      # Taken from your shell or .env. Generate one with: openssl rand -base64 32
+      AUTH_SECRET: ${AUTH_SECRET:-}
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+volumes:
+  ogsp_pgdata:
