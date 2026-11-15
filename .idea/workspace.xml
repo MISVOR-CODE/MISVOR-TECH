@@ -18,146 +18,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="612e2a9a-6499-424f-ba53-a9e04e9dcea9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+    <list default="true" id="612e2a9a-6499-424f-ba53-a9e04e9dcea9" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-vercel.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy-vercel.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vercelignore" beforeDir="false" afterPath="$PROJECT_DIR$/.vercelignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGES.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEPLOYMENT.md" beforeDir="false" afterPath="$PROJECT_DIR$/DEPLOYMENT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/articles/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/articles/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/blog/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/founder/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/founder/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/industries/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/industries/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/industries/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/industries/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/legal/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/legal/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/not-found.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/preferences/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/preferences/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/pricing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/pricing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/resources/faqs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/resources/faqs/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/search/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/search/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/solutions/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/solutions/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/solutions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/solutions/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/(protected)/articles/[id]/edit/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/(protected)/articles/[id]/edit/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/(protected)/articles/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/(protected)/articles/new/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/(protected)/articles/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/(protected)/articles/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/(protected)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/(protected)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/(protected)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/(protected)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/login/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/articles/[id]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/articles/[id]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/articles/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/articles/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/contact/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/contact/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/health/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/health/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/notifications/send/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/notifications/send/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/push/subscribe/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/push/subscribe/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/push/unsubscribe/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/push/unsubscribe/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/search/categories/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/search/categories/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/search/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/search/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/webhooks/n8n/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/webhooks/n8n/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ArticleCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ArticleForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ArticleGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleGrid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MediaBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MediaBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/Medallion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/Medallion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/RobotWalker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/RobotWalker.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/Scene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/Scene.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/Shafts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/Shafts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/Stage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/Stage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/TiltCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/TiltCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/industry.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/industry.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/kit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/kit.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/robot.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/robot.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fx/scenes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/fx/scenes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/Bits.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/Bits.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/Capabilities.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/Capabilities.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/CtaBand.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/CtaBand.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/FeatureShowcase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/FeatureShowcase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/HeroVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/HeroVideo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/HomeHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/HomeHero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/IndustriesGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/IndustriesGrid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/LanguageSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/LanguageSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/Logo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/site/MisvorAi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/MisvorAi.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/MobileStickyCTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/MobileStickyCTA.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/NewsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/NewsSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/NewsletterSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/NewsletterSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/PageHero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/PageHero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/Pic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/Pic.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/ProcessSteps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/ProcessSteps.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/SearchBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/SiteFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/SiteFooter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/SiteHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/SiteHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/StackTicker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/StackTicker.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/WhatsAppButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/WhatsAppButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/site/icons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/icons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/navigation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/request.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/routing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/articles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/articles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auth.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/content.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/content.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/email.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/email.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/media.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/media.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/navigation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/prisma.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/push.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/push.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/search.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/site.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/site.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webhooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webhooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/migrations/20260824183028_init/migration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/migrations/20260824183028_init/migration.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/migrations/20260826015245_add_locale_enum_and_column/migration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/migrations/20260826015245_add_locale_enum_and_column/migration.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/migrations/20260924120000_enable_fulltext_search/migration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/migrations/20260924120000_enable_fulltext_search/migration.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/seed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/sql/enable-search.sql" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/sql/enable-search.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/patterns/lattice.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/patterns/lattice.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/placeholders/news.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/placeholders/news.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/vercel-build.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/vercel-build.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/verify-search.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/verify-search.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/config.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/config.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/content.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/content.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/email.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/email.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/health.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/health.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/i18n.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/i18n.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/migrations.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/migrations.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/proxy.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/proxy.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/push.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/push.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/routes.articles.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/routes.articles.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/routes.n8n.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/routes.n8n.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/routes.search.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/routes.search.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/structure.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/structure.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/vercel-build.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/vercel-build.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/webhooks.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/webhooks.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vitest.config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/vitest.config.mts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,35 +44,35 @@
     &quot;assignee&quot;: &quot;MISVOR-CODE&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MISVOR-CODE/misvor_site.git&quot;,
-    &quot;accountId&quot;: &quot;a91a18c6-53a3-4968-aa02-ed8de90e54bd&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MISVOR-CODE/MISVOR-TECH.git",
+    "accountId": "a91a18c6-53a3-4968-aa02-ed8de90e54bd"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000027" />
-      <entry key="S5" value="1.0000047912608245" />
-      <entry key="S10" value="1.0057846637284655" />
-      <entry key="S30" value="1.6567199101923091" />
-      <entry key="S60" value="3.144001825763309" />
-      <entry key="M2" value="4.873986482995932" />
-      <entry key="M5" value="6.5248593357594" />
-      <entry key="M10" value="7.218841566805627" />
-      <entry key="M15" value="7.469027202930778" />
-      <entry key="M30" value="7.729278354942029" />
-      <entry key="H1" value="7.863304425839435" />
-      <entry key="H2" value="7.931336032147086" />
-      <entry key="H4" value="7.984374571048818" />
-      <entry key="D1" value="13.460927116277912" />
-      <entry key="W1" value="22.455545149857812" />
+      <entry key="MS100" value="1.242967829966473" />
+      <entry key="MS500" value="2.2253422861209335" />
+      <entry key="S2" value="4.430288711107755" />
+      <entry key="S5" value="6.83401529742853" />
+      <entry key="S10" value="9.329730553579124" />
+      <entry key="S30" value="12.549415998049467" />
+      <entry key="S60" value="13.759871437214466" />
+      <entry key="M2" value="14.79526259736548" />
+      <entry key="M5" value="16.240250823156504" />
+      <entry key="M10" value="17.740541479968467" />
+      <entry key="M15" value="18.982800419153246" />
+      <entry key="M30" value="21.325477681648266" />
+      <entry key="H1" value="23.252215188686264" />
+      <entry key="H2" value="24.503174331366438" />
+      <entry key="H4" value="25.235013831797957" />
+      <entry key="D1" value="31.248657680188106" />
+      <entry key="W1" value="40.40546330001324" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -227,23 +94,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.36098229888062405" />
-      <entry key="MS500" value="0.8156374933390097" />
-      <entry key="S2" value="0.9503296849787591" />
-      <entry key="S5" value="0.9798324725028129" />
-      <entry key="S10" value="0.9956288930069979" />
-      <entry key="S30" value="1.6526438457754085" />
-      <entry key="S60" value="3.141188334172964" />
-      <entry key="M2" value="4.872129800809148" />
-      <entry key="M5" value="6.523945098007649" />
-      <entry key="M10" value="7.218348404643835" />
-      <entry key="M15" value="7.468689766958839" />
-      <entry key="M30" value="7.7291051324875175" />
-      <entry key="H1" value="7.863216654808696" />
-      <entry key="H2" value="7.931291852309085" />
-      <entry key="H4" value="7.984352378334357" />
-      <entry key="D1" value="13.460922016928027" />
-      <entry key="W1" value="22.455544093192714" />
+      <entry key="MS100" value="1.1836814812724072" />
+      <entry key="MS500" value="2.185704471436243" />
+      <entry key="S2" value="4.406987296955746" />
+      <entry key="S5" value="6.8198910190248965" />
+      <entry key="S10" value="9.3199882416914" />
+      <entry key="S30" value="12.544957957307375" />
+      <entry key="S60" value="13.757415392160604" />
+      <entry key="M2" value="14.793950641712142" />
+      <entry key="M5" value="16.23967755521087" />
+      <entry key="M10" value="17.740195771488786" />
+      <entry key="M15" value="18.982525836347257" />
+      <entry key="M30" value="21.32529466152699" />
+      <entry key="H1" value="23.252104079777133" />
+      <entry key="H2" value="24.503112321178197" />
+      <entry key="H4" value="25.234980945239613" />
+      <entry key="D1" value="31.248650548780113" />
+      <entry key="W1" value="40.405461944243356" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -387,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794587742869</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1794729003970</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1794729003970</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,9 +280,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
