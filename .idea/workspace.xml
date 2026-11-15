@@ -20,11 +20,14 @@
   <component name="ChangeListManager">
     <list default="true" id="612e2a9a-6499-424f-ba53-a9e04e9dcea9" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGES.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEPLOYMENT.md" beforeDir="false" afterPath="$PROJECT_DIR$/DEPLOYMENT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/site/MisvorAi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/site/MisvorAi.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/site.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/site.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

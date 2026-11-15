@@ -1,5 +1,7 @@
 # MISVOR rebrand and multi-page build
 
+- MISVOR AI consultation: the "Talk to MISVOR AI" button now links to the separate `misvor-ai` project (Cloudflare Pages), passing the visitor's language as `?lang=`. The talking robot, its Gemini route and the three r128 dependency live in that project, so this site no longer needs `GEMINI_API_KEY` and keeps the microphone blocked. Set `NEXT_PUBLIC_ROBOT_URL` to its address (`robotHref` in lib/site.ts).
+
 - Robot hands: idle arms are twisted 85 degrees about their length (REST_TWIST in RobotWalker.tsx), so the elbow bends forward and the palm faces the body, including while walking and flying. The waving or pointing arm untwists to 0, palm to the screen. Left-wall wave now uses the right arm.
 
 - Robot fixes: stage is sized to the window so he never leaves the screen, the designer's wave, open-hand pointing, calmer grounded walk (hips dip, feet stay flat, slower stride), wall positions match the new wider design, soft warm glow instead of haze.
