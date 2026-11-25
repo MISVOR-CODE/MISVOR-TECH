@@ -45,7 +45,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <p className="mt-3 text-base leading-relaxed text-ink/75">{t("whereBody")}</p>
             <ul className="mt-5 flex flex-wrap gap-2">
               {cities.map((c) => (
-                <li key={c.key} className="border border-brass-deep/50 bg-[#f6efdd] px-3 py-1 text-sm text-ink">
+                <li key={c.key} className="border border-brass/50 bg-night px-3 py-1 text-sm text-[#e4dac0]">
                   {tc(c.key)}
                 </li>
               ))}

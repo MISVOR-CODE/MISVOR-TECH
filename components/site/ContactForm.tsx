@@ -30,9 +30,9 @@ export function ContactForm({ topics }: { topics: { value: string; label: string
 
   if (status === "sent") {
     return (
-      <div role="status" className="border border-brass-deep/60 bg-[#f6efdd] p-8">
-        <p className="font-display text-2xl text-ink">{t("thanksTitle")}</p>
-        <p className="mt-2 text-ink/75">{t("thanksBody")}</p>
+      <div role="status" className="plaque beam p-8">
+        <p className="relative z-[1] font-display text-2xl text-[#f6edd6]">{t("thanksTitle")}</p>
+        <p className="relative z-[1] mt-2 text-[#d9ceb4]">{t("thanksBody")}</p>
       </div>
     );
   }

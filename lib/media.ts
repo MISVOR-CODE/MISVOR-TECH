@@ -20,7 +20,7 @@ export const media = {
   heroClipSeconds: 6,
 
   // Site logo (transparent PNG). Set to null to fall back to the typographic wordmark.
-  logo: "/icons/misvor-logo-gold.png" as string | null,
+  logo: "/icons/misvor-logo-gold-tight.png" as string | null,
   logoAlt: "MISVOR",
 
   newsFallback: "/images/placeholders/news.svg",

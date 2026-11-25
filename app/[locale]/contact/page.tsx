@@ -47,18 +47,18 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             {cards.map((c) => {
               const inner = (
                 <>
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-brass-deep/70 bg-night text-brass-hi">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-brass/60 bg-night/70 text-brass-hi">
                     <ServiceIcon name={c.icon} className="h-5 w-5" />
                   </span>
                   <span>
-                    <span className="block text-xs font-medium uppercase tracking-[0.18em] text-ink/55">{c.label}</span>
-                    <span className="mt-0.5 block font-display text-lg text-ink">{c.value}</span>
+                    <span className="block text-xs font-medium uppercase tracking-[0.18em] text-[#cdbf9f]">{c.label}</span>
+                    <span className="mt-0.5 block font-display text-lg text-[#f6edd6]">{c.value}</span>
                   </span>
                 </>
               );
-              const cls = "flex items-center gap-4 border border-brass-deep/50 bg-[#f6efdd] p-5";
+              const cls = "plaque beam flex items-center gap-4 p-5";
               return "href" in c ? (
-                <a key={c.label} href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" className={`${cls} transition hover:border-brass-deep`}>
+                <a key={c.label} href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" className={`${cls} transition hover:-translate-y-0.5`}>
                   {inner}
                 </a>
               ) : (

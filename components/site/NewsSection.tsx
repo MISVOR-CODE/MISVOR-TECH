@@ -45,9 +45,9 @@ export async function NewsSection() {
             <Link
               key={article.id}
               href={article.slug === "#" ? "#" : `/articles/${article.slug}`}
-              className="group border border-brass-deep/50 bg-[#f6efdd] p-3 shadow-[0_24px_40px_-30px_rgba(40,26,6,0.7)] transition hover:border-brass-deep hover:shadow-[0_30px_50px_-28px_rgba(40,26,6,0.8)]"
+              className="plaque beam group p-3 transition hover:-translate-y-0.5"
             >
-              <div className="relative h-[260px] w-full overflow-hidden border border-brass-deep/40 sm:h-[300px]">
+              <div className="relative h-[260px] w-full overflow-hidden border border-brass/40 sm:h-[300px]">
                 <Pic
                   src={article.coverMediaUrl || media.newsFallback}
                   alt=""
@@ -57,12 +57,12 @@ export async function NewsSection() {
                 />
               </div>
               <div className="px-2 pb-3 pt-5">
-                <p className="text-sm text-ink/60">
+                <p className="text-sm text-[#cdbf9f]">
                   {format(article.publishedAt ?? publishedFallback, "d MMMM yyyy", {
                     locale: DATE_FNS_LOCALES[locale]
                   })}
                 </p>
-                <h3 className="mt-1.5 font-display text-xl leading-snug text-ink transition group-hover:text-oxblood sm:text-2xl">
+                <h3 className="mt-1.5 font-display text-xl leading-snug text-[#f6edd6] transition group-hover:text-brass-hi sm:text-2xl">
                   {article.title}
                 </h3>
               </div>

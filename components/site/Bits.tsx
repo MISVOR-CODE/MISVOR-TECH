@@ -29,9 +29,8 @@ export function CheckList({ items, dark }: { items: string[]; dark?: boolean }) 
 
 export function Framed({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
-    <div className={`relative border border-brass-deep/50 bg-[#f6efdd] p-6 shadow-[0_30px_60px_-40px_rgba(60,40,10,0.55)] sm:p-8 ${className}`}>
-      <div className="pointer-events-none absolute inset-2 border border-brass-deep/30" />
-      <div className="relative">{children}</div>
+    <div className={`plaque beam p-6 sm:p-8 ${className}`}>
+      <div className="relative z-[1]">{children}</div>
     </div>
   );
 }

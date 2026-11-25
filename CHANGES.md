@@ -54,3 +54,15 @@ See `DEPLOYMENT.md` for how to deploy. This file lists what differs from the ori
 - Full-text search is installed by a Prisma migration. `prisma/sql/enable-search.sql` and `npm run db:search:setup`
   still work and are safe to run on top of it.
 - `postinstall` now runs `prisma generate`. `engines.node` is `22.x`. `@types/node` is `^22` (required by vitest 5).
+
+
+## Header lockup, intro loader and favicon
+
+- Header now shows the logo, a thin divider and TECH, the same lockup as the MISVOR Build header. The logo uses a tightly cropped file (`public/icons/misvor-logo-gold-tight.png`, set in `lib/media.ts`) so it renders about 131 x 56 px on desktop, matching Build.
+- Added a once-per-session intro loader (`components/site/IntroLoader.tsx`, styles at the end of `app/globals.css`, head script in `app/[locale]/layout.tsx`). Hero lines wait for it on the first visit.
+- Replaced the favicon set with the main MISVOR site's (`app/icon.png`, `app/icon.svg`, `app/favicon.ico`, `app/apple-icon.png`, `public/icons/icon-*.png`) and updated `public/manifest.json`.
+
+## Blue cards with light beams
+
+- Every cream card is now the blue plaque style with a travelling light beam (`plaque beam`): industries grid (beam colours cycle gold, blue, green, rose), news and blog cards, related solutions, contact cards, founder stats and skills, the shared `Framed` panel, the contact-form thank-you card and the footer value tiles.
+- Small tag pills (solution stack, office cities) are navy to match, without beams. The tech-stack ticker pills are unchanged.

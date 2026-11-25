@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
+import { IntroLoader } from "@/components/site/IntroLoader";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import "../globals.css";
 
@@ -68,8 +69,18 @@ export default async function LocaleLayout({
   setRequestLocale(locale as Locale);
 
   return (
-    <html lang={locale} className={`${bodoni.variable} ${jost.variable}`}>
+    <html lang={locale} className={`${bodoni.variable} ${jost.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Marks the page as script-enabled and skips the intro loader on repeat visits. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){var d=document.documentElement;d.classList.add('js');try{if(sessionStorage.getItem('mv-seen'))d.classList.add('seen')}catch(e){}})()",
+          }}
+        />
+      </head>
       <body className="flex min-h-screen flex-col font-sans antialiased">
+        <IntroLoader />
         <NextIntlClientProvider>
           <SiteHeader />
           <main className="flex-1">{children}</main>

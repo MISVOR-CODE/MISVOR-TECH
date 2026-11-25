@@ -68,7 +68,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ local
             <p className="mt-9 text-xs font-medium uppercase tracking-[0.2em] text-ink/55">{tl("typicalStack")}</p>
             <ul className="mt-3 flex flex-wrap gap-2">
               {s.stack.map((tag) => (
-                <li key={tag} className="border border-brass-deep/50 bg-[#f6efdd] px-3 py-1 text-sm text-ink">
+                <li key={tag} className="border border-brass/50 bg-night px-3 py-1 text-sm text-[#e4dac0]">
                   {tag}
                 </li>
               ))}
@@ -104,13 +104,13 @@ export default async function SolutionPage({ params }: { params: Promise<{ local
                 <Link
                   key={k}
                   href={`/industries/${ind.slug}`}
-                  className="group border border-brass-deep/50 bg-[#f6efdd] p-6 transition hover:-translate-y-0.5 hover:border-brass-deep"
+                  className="plaque beam group p-6 transition hover:-translate-y-0.5"
                 >
-                  <span className="flex h-11 w-11 items-center justify-center rounded-full border border-brass-deep/70 bg-night text-brass-hi">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-full border border-brass/60 bg-night/70 text-brass-hi">
                     <ServiceIcon name={ind.icon} className="h-5 w-5" />
                   </span>
-                  <p className="mt-4 font-display text-xl text-ink group-hover:text-oxblood">{tInd(`${k}.title`)}</p>
-                  <p className="mt-1.5 text-sm leading-relaxed text-ink/70">{tInd(`${k}.short`)}</p>
+                  <p className="mt-4 font-display text-xl text-[#f6edd6] group-hover:text-brass-hi">{tInd(`${k}.title`)}</p>
+                  <p className="mt-1.5 text-sm leading-relaxed text-[#cdbf9f]">{tInd(`${k}.short`)}</p>
                 </Link>
               );
             })}

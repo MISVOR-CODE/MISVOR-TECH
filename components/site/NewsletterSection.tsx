@@ -24,7 +24,7 @@ export function NewsletterSection() {
 
         <ul className="mt-8 grid grid-cols-1 gap-3 text-sm text-[#d9ceb4] sm:grid-cols-3">
           {valueProps.map((vp) => (
-            <li key={vp} className="border border-brass/30 px-4 py-4">
+            <li key={vp} className="plaque beam px-4 py-4">
               {vp}
             </li>
           ))}

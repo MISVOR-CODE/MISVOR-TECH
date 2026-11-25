@@ -67,11 +67,11 @@ export default async function FounderPage({ params }: { params: Promise<{ locale
             <p className="mt-6 max-w-prose text-base leading-[1.8] text-ink/80 sm:text-lg">{t("body1")}</p>
             <p className="mt-4 max-w-prose text-base leading-[1.8] text-ink/80 sm:text-lg">{t("body2")}</p>
 
-            <div className="mt-8 grid grid-cols-2 gap-px border border-brass-deep/50 bg-brass-deep/40 sm:grid-cols-4">
+            <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {stats.map((s) => (
-                <div key={s} className="bg-[#f6efdd] px-4 py-5 text-center">
-                  <p className="font-display text-3xl text-ink">{t(`stats.${s}.value`)}</p>
-                  <p className="mt-1 text-xs leading-snug text-ink/65">{t(`stats.${s}.label`)}</p>
+                <div key={s} className="plaque beam px-4 py-5 text-center">
+                  <p className="relative z-[1] font-display text-3xl text-[#f6edd6]">{t(`stats.${s}.value`)}</p>
+                  <p className="relative z-[1] mt-1 text-xs leading-snug text-[#cdbf9f]">{t(`stats.${s}.label`)}</p>
                 </div>
               ))}
             </div>
@@ -113,15 +113,15 @@ export default async function FounderPage({ params }: { params: Promise<{ locale
           <SectionTitle title={t("skillsTitle")} />
           <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
             {skills.map((k) => (
-              <div key={k} className="border border-brass-deep/50 bg-[#f6efdd] p-6">
-                <p className="font-display text-xl text-ink">{t(`skills.${k}.title`)}</p>
-                <p className="mt-3 text-sm leading-relaxed text-ink/75">{t(`skills.${k}.items`)}</p>
+              <div key={k} className="plaque beam p-6">
+                <p className="relative z-[1] font-display text-xl text-[#f6edd6]">{t(`skills.${k}.title`)}</p>
+                <p className="relative z-[1] mt-3 text-sm leading-relaxed text-[#d9ceb4]">{t(`skills.${k}.items`)}</p>
               </div>
             ))}
-            <div className="border border-dashed border-brass-deep/60 p-6">
-              <p className="font-display text-xl text-ink">{t("educationTitle")}</p>
-              <p className="mt-3 text-sm leading-relaxed text-ink/75">{t("educationBody")}</p>
-              <Link href="/contact" className="mt-4 inline-block border-b border-brass-deep pb-0.5 text-sm font-medium text-brand-dark hover:text-oxblood">
+            <div className="plaque beam p-6">
+              <p className="relative z-[1] font-display text-xl text-[#f6edd6]">{t("educationTitle")}</p>
+              <p className="relative z-[1] mt-3 text-sm leading-relaxed text-[#d9ceb4]">{t("educationBody")}</p>
+              <Link href="/contact" className="relative z-[1] mt-4 inline-block border-b border-brass pb-0.5 text-sm font-medium text-brass-hi hover:text-white">
                 {t("contactCta")}
               </Link>
             </div>

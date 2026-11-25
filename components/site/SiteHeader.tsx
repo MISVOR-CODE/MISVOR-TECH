@@ -57,8 +57,15 @@ export function SiteHeader() {
         style={plain ? { background: "rgb(8 18 31 / 0.94)" } : undefined}
       >
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:h-20">
-          <Link href="/" className="flex shrink-0 items-center" aria-label="MISVOR">
+          <Link href="/" className="flex shrink-0 items-center" aria-label="MISVOR Tech">
             <Logo />
+            <span aria-hidden className="mx-3 h-6 w-px bg-brass/70 sm:mx-4" />
+            <span
+              aria-hidden
+              className="text-[0.72rem] font-medium tracking-[0.26em] text-[#e9d8a6] uppercase sm:text-[0.8rem]"
+            >
+              Tech
+            </span>
           </Link>
 
           {desktopSearchOpen ? (

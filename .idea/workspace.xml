@@ -18,14 +18,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="612e2a9a-6499-424f-ba53-a9e04e9dcea9" name="Changes" comment="third commit" />
+    <list default="true" id="612e2a9a-6499-424f-ba53-a9e04e9dcea9" name="Changes" comment="adding packages commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/icon.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="180" />
+    <option name="cachedIndexableFilesCount" value="161" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -37,35 +40,35 @@
     &quot;assignee&quot;: &quot;MISVOR-CODE&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MISVOR-CODE/MISVOR-TECH.git",
-    "accountId": "a91a18c6-53a3-4968-aa02-ed8de90e54bd"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MISVOR-CODE/MISVOR-TECH.git&quot;,
+    &quot;accountId&quot;: &quot;a91a18c6-53a3-4968-aa02-ed8de90e54bd&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.183434076420085" />
-      <entry key="MS500" value="2.5011708397489296" />
-      <entry key="S2" value="3.5012416204392167" />
-      <entry key="S5" value="3.7875431870959413" />
-      <entry key="S10" value="3.8914745210432833" />
-      <entry key="S30" value="4.066187954264784" />
-      <entry key="S60" value="5.5426031343345015" />
-      <entry key="M2" value="10.575730357335877" />
-      <entry key="M5" value="20.717395352623985" />
-      <entry key="M10" value="28.815491633944298" />
-      <entry key="M15" value="33.60328084633225" />
-      <entry key="M30" value="41.03319592883408" />
-      <entry key="H1" value="46.81151875311932" />
-      <entry key="H2" value="52.70909615046382" />
-      <entry key="H4" value="60.354959004737466" />
-      <entry key="D1" value="79.6829504053579" />
-      <entry key="W1" value="93.31572809462473" />
+      <entry key="MS100" value="1.3164475051046183" />
+      <entry key="MS500" value="2.3210052164386337" />
+      <entry key="S2" value="3.4989220275287023" />
+      <entry key="S5" value="6.981743308903648" />
+      <entry key="S10" value="11.3132639159372" />
+      <entry key="S30" value="18.226166356443123" />
+      <entry key="S60" value="21.17780279732862" />
+      <entry key="M2" value="23.040858658672153" />
+      <entry key="M5" value="27.081426641667935" />
+      <entry key="M10" value="35.40687101156709" />
+      <entry key="M15" value="42.22000466577202" />
+      <entry key="M30" value="54.473873206605866" />
+      <entry key="H1" value="64.69854584842835" />
+      <entry key="H2" value="73.54764941693257" />
+      <entry key="H4" value="82.92692246306503" />
+      <entry key="D1" value="104.14061032663957" />
+      <entry key="W1" value="118.22480672396891" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -87,23 +90,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1496377808618092" />
-      <entry key="MS500" value="2.484587585520783" />
-      <entry key="S2" value="3.495235243790207" />
-      <entry key="S5" value="3.7849281392504075" />
-      <entry key="S10" value="3.8901284547435573" />
-      <entry key="S30" value="4.0657049431604895" />
-      <entry key="S60" value="5.542187346524364" />
-      <entry key="M2" value="10.575240070561252" />
-      <entry key="M5" value="20.71698254989849" />
-      <entry key="M10" value="28.81519812605536" />
-      <entry key="M15" value="33.60304985571572" />
-      <entry key="M30" value="41.03305257746147" />
-      <entry key="H1" value="46.81143534644075" />
-      <entry key="H2" value="52.709044939174255" />
-      <entry key="H4" value="60.35492494520588" />
-      <entry key="D1" value="79.68294048624732" />
-      <entry key="W1" value="93.31572620235589" />
+      <entry key="MS100" value="1.2547919955095" />
+      <entry key="MS500" value="2.300113953218579" />
+      <entry key="S2" value="3.4902006119328317" />
+      <entry key="S5" value="6.96702770108956" />
+      <entry key="S10" value="11.291648845578354" />
+      <entry key="S30" value="18.20886653311922" />
+      <entry key="S60" value="21.166871342067015" />
+      <entry key="M2" value="23.034698542415203" />
+      <entry key="M5" value="27.07872184291508" />
+      <entry key="M10" value="35.40540514888552" />
+      <entry key="M15" value="42.218973364256996" />
+      <entry key="M30" value="54.47331057718525" />
+      <entry key="H1" value="64.69824448218209" />
+      <entry key="H2" value="73.54748672930009" />
+      <entry key="H4" value="82.92683196317235" />
+      <entry key="D1" value="104.14059083319275" />
+      <entry key="W1" value="118.22480345598392" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -118,39 +121,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/ELAD DAUDET/Documents/projects/misvor_site",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\ELAD DAUDET\\Documents\\projects\\misvor_site\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ELAD DAUDET/Documents/projects/misvor_site&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ELAD DAUDET\\Documents\\projects\\misvor_site\\node_modules\\typescript\\lib&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ELAD DAUDET\Documents\projects\misvor_site" />
@@ -190,6 +193,8 @@
       <workItem from="1794322666072" duration="2051000" />
       <workItem from="1794427440935" duration="6909000" />
       <workItem from="1794585027343" duration="8767000" />
+      <workItem from="1794857644975" duration="1558000" />
+      <workItem from="1795297819282" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <option name="closed" value="true" />
@@ -279,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794751660637</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding packages commit">
+      <option name="closed" value="true" />
+      <created>1794752838287</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1794752838287</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +313,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="adding packages commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding packages commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

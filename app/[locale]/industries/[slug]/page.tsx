@@ -63,8 +63,8 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
 
         <div className="mx-auto mt-14 max-w-7xl">
           <Framed>
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-ink/55">{tl("example")}</p>
-            <p className="mt-3 max-w-3xl font-display text-2xl leading-snug text-ink sm:text-[1.7rem]">{t(`${ind.key}.example`)}</p>
+            <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#cdbf9f]">{tl("example")}</p>
+            <p className="mt-3 max-w-3xl font-display text-2xl leading-snug text-[#f6edd6] sm:text-[1.7rem]">{t(`${ind.key}.example`)}</p>
           </Framed>
         </div>
       </section>
