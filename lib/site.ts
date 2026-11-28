@@ -2,6 +2,8 @@
 
 export const site = {
   name: "MISVOR",
+  // The parent site. The MISVOR logo in the header and footer links here.
+  mainSite: "https://misvor.com",
   // Where the team is based. Used in the footer and on the contact page.
   location: "Valencia, Spain",
   // Public contact address. Contact form messages are sent to CONTACT_TO_EMAIL

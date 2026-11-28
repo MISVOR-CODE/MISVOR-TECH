@@ -1,4 +1,5 @@
 import type { CSSProperties } from "react";
+import { Magnetic } from "@/components/motion/Magnetic";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { HeroVideo } from "@/components/site/HeroVideo";
@@ -45,12 +46,16 @@ export function HomeHero() {
             {t("lead")}
           </p>
           <div className="rise pointer-events-auto mt-8 flex flex-wrap gap-3" style={delay("0.65s")}>
-            <Link href="/contact" className="btn-brass">
-              {t("primary")}
-            </Link>
-            <Link href="/solutions" className="btn-line">
-              {t("secondary")}
-            </Link>
+            <Magnetic>
+              <Link href="/contact" className="btn-brass">
+                {t("primary")}
+              </Link>
+            </Magnetic>
+            <Magnetic>
+              <Link href="/solutions" className="btn-line">
+                {t("secondary")}
+              </Link>
+            </Magnetic>
           </div>
 
           <div className="rise pointer-events-auto mt-12 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-4" style={delay("0.85s")}>

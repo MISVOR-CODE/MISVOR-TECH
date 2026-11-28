@@ -488,7 +488,7 @@ function buildStack(ctx: Ctx): Built {
 
   // Extracted fields drifting out of the stack
   const chipGeo = new THREE.BoxGeometry(0.34, 0.09, 0.14);
-  const chipMat = emissive(0xdcb15a, 0.6);
+  const chipMat = emissive(0xf0c25a, 0.6);
   const chips = new THREE.Group();
   for (let i = 0; i < 7; i++) {
     const chip = new THREE.Mesh(chipGeo, chipMat);

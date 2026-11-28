@@ -41,9 +41,9 @@ export type Built = {
 
 export type Ctx = { glow: THREE.Texture };
 
-export const BRASS = 0xc39a4b;
-export const BRASS_DEEP = 0x8d6a2b;
-export const BRASS_HI = 0xf1d9a0;
+export const BRASS = 0xe4ae3c;
+export const BRASS_DEEP = 0x946010;
+export const BRASS_HI = 0xfbeaa2;
 export const NAVY = 0x10243b;
 export const SKY = 0x6f9bd6;
 
@@ -55,18 +55,18 @@ export function makeGlow() {
   const g = c.getContext("2d")!;
   const grad = g.createRadialGradient(32, 32, 0, 32, 32, 32);
   grad.addColorStop(0, "rgba(255,240,200,1)");
-  grad.addColorStop(0.35, "rgba(241,217,160,0.45)");
-  grad.addColorStop(1, "rgba(241,217,160,0)");
+  grad.addColorStop(0.35, "rgba(251,234,162,0.45)");
+  grad.addColorStop(1, "rgba(251,234,162,0)");
   g.fillStyle = grad;
   g.fillRect(0, 0, 64, 64);
   return new THREE.CanvasTexture(c);
 }
 
-export function metal(color = BRASS, roughness = 0.3) {
-  return new THREE.MeshStandardMaterial({ color, metalness: 1, roughness, envMapIntensity: 1.15 });
+export function metal(color = BRASS, roughness = 0.26) {
+  return new THREE.MeshStandardMaterial({ color, metalness: 1, roughness, envMapIntensity: 1.45 });
 }
 
-export function emissive(color = 0xdcb15a, intensity = 0.65) {
+export function emissive(color = 0xf0c25a, intensity = 0.65) {
   return new THREE.MeshStandardMaterial({ color, emissive: color, emissiveIntensity: intensity, metalness: 0.4, roughness: 0.3 });
 }
 
@@ -104,18 +104,18 @@ export function sheetTexture(seed: number) {
   const g = c.getContext("2d")!;
   g.fillStyle = "#0f2238";
   g.fillRect(0, 0, W, H);
-  g.strokeStyle = "rgba(195,154,75,0.5)";
+  g.strokeStyle = "rgba(228,174,60,0.5)";
   g.lineWidth = 2;
   g.strokeRect(6, 6, W - 12, H - 12);
-  g.fillStyle = "rgba(241,217,160,0.85)";
+  g.fillStyle = "rgba(251,234,162,0.85)";
   g.fillRect(22, 24, 70, 12);
-  g.fillStyle = "rgba(195,154,75,0.35)";
+  g.fillStyle = "rgba(228,174,60,0.35)";
   let s = seed * 9301 + 49297;
   const rnd = () => ((s = (s * 9301 + 49297) % 233280) / 233280);
   for (let y = 62; y < H - 30; y += 17) {
     g.fillRect(22, y, 130 + rnd() * 90, 6);
   }
-  g.fillStyle = "rgba(241,217,160,0.8)";
+  g.fillStyle = "rgba(251,234,162,0.8)";
   g.fillRect(22, H - 54, 90, 8);
   const tex = new THREE.CanvasTexture(c);
   tex.colorSpace = THREE.SRGBColorSpace;

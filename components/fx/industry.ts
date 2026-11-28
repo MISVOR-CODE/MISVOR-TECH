@@ -39,9 +39,9 @@ function limbTexture(inner: number, outer: number) {
   const mid = S / 2;
   const rIn = (inner / outer) * mid;
   const grad = g.createRadialGradient(mid, mid, rIn, mid, mid, mid);
-  grad.addColorStop(0, "#8f6a26");
-  grad.addColorStop(0.5, "#b88b3a");
-  grad.addColorStop(1, "#8c6726");
+  grad.addColorStop(0, "#a86f14");
+  grad.addColorStop(0.5, "#e4ae3c");
+  grad.addColorStop(1, "#946010");
   g.fillStyle = grad;
   g.fillRect(0, 0, S, S);
   g.strokeStyle = "#4a330e";
@@ -201,8 +201,8 @@ export function buildScales(ctx: Ctx): Built {
   const inner = new THREE.Group();
   inner.position.y = -0.85;
   root.add(inner);
-  const brass = new THREE.MeshStandardMaterial({ color: 0xd4aa55, metalness: 0.7, roughness: 0.28, emissive: 0x4a3410, emissiveIntensity: 0.8, envMapIntensity: 1.3 });
-  const deep = new THREE.MeshStandardMaterial({ color: 0xa87f33, metalness: 0.7, roughness: 0.38, emissive: 0x3a2808, emissiveIntensity: 0.8, envMapIntensity: 1.2 });
+  const brass = new THREE.MeshStandardMaterial({ color: 0xeab444, metalness: 0.7, roughness: 0.28, emissive: 0x4a3410, emissiveIntensity: 0.8, envMapIntensity: 1.3 });
+  const deep = new THREE.MeshStandardMaterial({ color: 0xc98d22, metalness: 0.7, roughness: 0.38, emissive: 0x3a2808, emissiveIntensity: 0.8, envMapIntensity: 1.2 });
 
   inner.add(mesh(new THREE.CylinderGeometry(1.25, 1.4, 0.2, 56), deep, 0, 0.1, 0));
   inner.add(mesh(new THREE.CylinderGeometry(0.9, 1.05, 0.18, 56), brass, 0, 0.29, 0));
@@ -315,7 +315,7 @@ export function buildHelix(ctx: Ctx): Built {
   root.add(mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts1), 240, 0.065, 12), brass));
   root.add(mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts2), 240, 0.065, 12), deep));
 
-  const gold = emissive(0xdcb15a, 0.6);
+  const gold = emissive(0xf0c25a, 0.6);
   const blue = emissive(SKY, 0.5);
   const rungGeo = new THREE.CylinderGeometry(0.03, 0.03, 1, 10);
   const nodeGeo = new THREE.SphereGeometry(0.1, 20, 14);
@@ -395,7 +395,7 @@ export function buildContainers(ctx: Ctx): Built {
   inner.add(mesh(new THREE.CylinderGeometry(3, 3.1, 0.14, 72), navy(0x0f2540), 0, -0.07, 0));
   inner.add(new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.CylinderGeometry(3, 3.1, 0.14, 72)), lines(BRASS, 0.5)));
 
-  const colours = [0xb98a3a, 0x1f4a7a, 0x7a2530, 0x8d6a2b, 0x2d6a62];
+  const colours = [0xe0a636, 0x1f4a7a, 0x7a2530, 0x946010, 0x2d6a62];
   let n = 0;
   const place = (x: number, y: number, z: number, rot = 0) => {
     const c = container(colours[n++ % colours.length]);
@@ -418,7 +418,7 @@ export function buildContainers(ctx: Ctx): Built {
   belt.rotation.x = Math.PI / 2;
   inner.add(belt);
   const parcels = new THREE.Group();
-  const pc = [0xefe3c4, 0xb98a3a, 0x1f4a7a, 0xefe3c4, 0x7a2530, 0xb98a3a];
+  const pc = [0xefe3c4, 0xe0a636, 0x1f4a7a, 0xefe3c4, 0x7a2530, 0xe0a636];
   for (let i = 0; i < 6; i++) {
     const a = (i / 6) * Math.PI * 2;
     const p = mesh(new THREE.BoxGeometry(0.3, 0.3, 0.3), new THREE.MeshStandardMaterial({ color: pc[i], roughness: 0.55, metalness: 0.2 }), Math.cos(a) * ringR, 0.24, Math.sin(a) * ringR);
@@ -452,7 +452,7 @@ export function buildBag(ctx: Ctx): Built {
   const p = bodyGeo.attributes.position;
   for (let i = 0; i < p.count; i++) if (p.getY(i) > 0) p.setX(i, p.getX(i) * 0.82);
   bodyGeo.computeVertexNormals();
-  const gold = new THREE.MeshPhysicalMaterial({ color: 0xc39a4b, metalness: 0.9, roughness: 0.32, clearcoat: 0.4, envMapIntensity: 1.2 });
+  const gold = new THREE.MeshPhysicalMaterial({ color: 0xe4ae3c, metalness: 0.9, roughness: 0.32, clearcoat: 0.4, envMapIntensity: 1.2 });
   root.add(mesh(bodyGeo, gold));
   const handleMat = metal(BRASS_DEEP, 0.35);
   for (const z of [0.2, -0.2]) {
@@ -471,12 +471,12 @@ export function buildBag(ctx: Ctx): Built {
     const r = i % 2 ? 0.05 : 0.17;
     i ? star.lineTo(Math.cos(a) * r, Math.sin(a) * r) : star.moveTo(Math.cos(a) * r, Math.sin(a) * r);
   }
-  const sm = mesh(new THREE.ShapeGeometry(star), new THREE.MeshBasicMaterial({ color: 0xf1d9a0 }), 0, -0.05, 0.495);
+  const sm = mesh(new THREE.ShapeGeometry(star), new THREE.MeshBasicMaterial({ color: 0xfbeaa2 }), 0, -0.05, 0.495);
   root.add(sm);
 
   // Parcels and price tags circling the bag
   const orbit = new THREE.Group();
-  const cols = [0xefe3c4, 0x1f4a7a, 0xb98a3a, 0x7a2530, 0xefe3c4];
+  const cols = [0xefe3c4, 0x1f4a7a, 0xe0a636, 0x7a2530, 0xefe3c4];
   for (let i = 0; i < 5; i++) {
     const a = (i / 5) * Math.PI * 2;
     const box = new THREE.Group();
@@ -729,7 +729,7 @@ export function buildTurbine(ctx: Ctx): Built {
     const t = mesh(toothGeo, metal(BRASS_DEEP, 0.45), -0.85 + i * 0.567, 0.7, -0.5);
     factory.add(t);
   }
-  const winMat = emissive(0xf1d9a0, 0.9);
+  const winMat = emissive(0xfbeaa2, 0.9);
   for (let i = 0; i < 5; i++) factory.add(mesh(new THREE.BoxGeometry(0.2, 0.16, 0.02), winMat, -0.64 + i * 0.32, 0.38, 0.51));
   for (const x of [-0.55, -0.15]) factory.add(mesh(new THREE.CylinderGeometry(0.09, 0.12, 1.1, 20), metal(BRASS, 0.4), x, 1.15, -0.25));
   inner.add(factory);
@@ -797,7 +797,7 @@ export function buildBriefcase(ctx: Ctx): Built {
   for (const x of [-0.46, 0.46]) caseGroup.add(mesh(new THREE.BoxGeometry(0.1, 0.12, 0.2), brass, x, h / 2 + 0.02, 0));
   for (const x of [-0.65, 0.65]) {
     caseGroup.add(mesh(new THREE.BoxGeometry(0.3, 0.2, 0.05), brass, x, 0.18, 0.45));
-    caseGroup.add(mesh(new THREE.CylinderGeometry(0.035, 0.035, 0.06, 16), emissive(0xdcb15a, 0.4), x, 0.18, 0.48)).rotation.x = Math.PI / 2;
+    caseGroup.add(mesh(new THREE.CylinderGeometry(0.035, 0.035, 0.06, 16), emissive(0xf0c25a, 0.4), x, 0.18, 0.48)).rotation.x = Math.PI / 2;
   }
   caseGroup.rotation.x = 0.1;
 
@@ -814,7 +814,7 @@ export function buildBriefcase(ctx: Ctx): Built {
   const badge = new THREE.Group();
   badge.add(mesh(new THREE.TorusGeometry(0.3, 0.04, 14, 48), brass));
   badge.add(mesh(new THREE.CircleGeometry(0.28, 40), new THREE.MeshStandardMaterial({ color: 0x14274a, roughness: 0.5 })));
-  const tick = mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3([new THREE.Vector3(-0.12, 0, 0.01), new THREE.Vector3(-0.03, -0.1, 0.01), new THREE.Vector3(0.14, 0.1, 0.01)]), 12, 0.03, 8), emissive(0xf1d9a0, 0.8));
+  const tick = mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3([new THREE.Vector3(-0.12, 0, 0.01), new THREE.Vector3(-0.03, -0.1, 0.01), new THREE.Vector3(0.14, 0.1, 0.01)]), 12, 0.03, 8), emissive(0xfbeaa2, 0.8));
   badge.add(tick);
   badge.position.set(1.45, 1.35, 0.5);
   root.add(badge);

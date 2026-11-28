@@ -10,9 +10,9 @@ function faceTexture() {
   c.width = c.height = S;
   const g = c.getContext("2d")!;
   const base = g.createRadialGradient(S / 2, S / 2, 40, S / 2, S / 2, S / 2);
-  base.addColorStop(0, "#ead08f");
-  base.addColorStop(0.6, "#c39a4b");
-  base.addColorStop(1, "#8d6a2b");
+  base.addColorStop(0, "#fbe08a");
+  base.addColorStop(0.6, "#e4ae3c");
+  base.addColorStop(1, "#946010");
   g.fillStyle = base;
   g.fillRect(0, 0, S, S);
 
@@ -101,8 +101,8 @@ export default function Medallion({ className = "" }: { className?: string }) {
     scene.add(key);
 
     const tex = faceTexture();
-    const face = new THREE.MeshStandardMaterial({ map: tex, metalness: 0.85, roughness: 0.38, envMapIntensity: 1.1 });
-    const edge = new THREE.MeshStandardMaterial({ color: 0xc39a4b, metalness: 1, roughness: 0.3, envMapIntensity: 1.2 });
+    const face = new THREE.MeshStandardMaterial({ map: tex, metalness: 0.95, roughness: 0.3, envMapIntensity: 1.4 });
+    const edge = new THREE.MeshStandardMaterial({ color: 0xe4ae3c, metalness: 1, roughness: 0.24, envMapIntensity: 1.5 });
     const coin = new THREE.Mesh(new THREE.CylinderGeometry(1.5, 1.5, 0.24, 96, 1), [edge, face, face]);
     coin.rotation.x = Math.PI / 2;
     const rimGeo = new THREE.TorusGeometry(1.46, 0.07, 16, 120);

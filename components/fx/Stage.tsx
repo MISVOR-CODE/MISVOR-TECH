@@ -82,7 +82,7 @@ function start(el: HTMLDivElement, kind: SceneKind, interactive: boolean, initia
 
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.05;
+  renderer.toneMappingExposure = 1.14;
   const canvas = renderer.domElement;
   Object.assign(canvas.style, {
     width: "100%",

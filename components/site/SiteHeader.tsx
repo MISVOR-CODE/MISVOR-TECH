@@ -6,6 +6,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { primaryNav } from "@/lib/navigation";
 import { SearchBar } from "@/components/site/SearchBar";
 import { LanguageSwitcher } from "@/components/site/LanguageSwitcher";
+import { site } from "@/lib/site";
 import { Logo } from "@/components/site/Logo";
 
 // Pages that open on a light background instead of a hero. The glass bar gets a firmer tint there.
@@ -57,16 +58,20 @@ export function SiteHeader() {
         style={plain ? { background: "rgb(8 18 31 / 0.94)" } : undefined}
       >
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:h-20">
-          <Link href="/" className="flex shrink-0 items-center" aria-label="MISVOR Tech">
-            <Logo />
+          <div className="flex shrink-0 items-center">
+            {/* The MISVOR logo goes to the parent site. The TECH label stays on this site. */}
+            <a href={site.mainSite} aria-label="MISVOR main site (misvor.com)" className="flex items-center">
+              <Logo />
+            </a>
             <span aria-hidden className="mx-3 h-6 w-px bg-brass/70 sm:mx-4" />
-            <span
-              aria-hidden
-              className="text-[0.72rem] font-medium tracking-[0.26em] text-[#e9d8a6] uppercase sm:text-[0.8rem]"
+            <Link
+              href="/"
+              aria-label="MISVOR Tech home"
+              className="text-[0.72rem] font-medium tracking-[0.26em] text-[#f6e0a0] uppercase transition hover:text-white sm:text-[0.8rem]"
             >
               Tech
-            </span>
-          </Link>
+            </Link>
+          </div>
 
           {desktopSearchOpen ? (
             <div className="hidden flex-1 items-center gap-3 lg:flex">

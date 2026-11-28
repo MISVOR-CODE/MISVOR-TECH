@@ -66,3 +66,17 @@ See `DEPLOYMENT.md` for how to deploy. This file lists what differs from the ori
 
 - Every cream card is now the blue plaque style with a travelling light beam (`plaque beam`): industries grid (beam colours cycle gold, blue, green, rose), news and blog cards, related solutions, contact cards, founder stats and skills, the shared `Framed` panel, the contact-form thank-you card and the footer value tiles.
 - Small tag pills (solution stack, office cities) are navy to match, without beams. The tech-stack ticker pills are unchanged.
+
+## Logo links to the parent site
+
+- The MISVOR logo in the header and footer now links to https://misvor.com (`site.mainSite` in `lib/site.ts`). The TECH label next to it still goes to this site's home page.
+
+## Back to misvor.com bar
+
+- Added a slim bar above the header (`components/site/ParentBar.tsx`, used in `app/[locale]/layout.tsx`): a "Back to misvor.com" button on the left and "MISVOR Tech · Software, AI and automation" on the right, the same as MISVOR Build. It scrolls away and the header stays pinned. The right-hand text is hidden on small screens. Texts are in `messages/{en,fr,es}.json` under `parentBar`.
+
+## Gold tone, new logo and icons, light motion
+
+- Gold now follows the supplied logo: shadow #946010, mid #e4ae3c, highlight #fbeaa2 (CSS variables, 3D model materials, buttons, beams). Primary buttons use a metallic gold gradient. 3D metal is brighter (higher env-map intensity and exposure, lower roughness).
+- New logo (`public/icons/misvor-logo-gold.png`, tight crop for the header), new ornament mark (`public/misvor-mark.webp`, used by the loader), and the supplied icon set (`app/icon.png`, `app/icon.svg`, `app/favicon.ico`, `app/apple-icon.png`, `public/icons/icon-*.png`).
+- Motion kept light for phones: entrance reveals (`components/motion/Reveal.tsx`), magnetic buttons (mouse only), scroll progress line, button shine, link underline. No extra parallax or particles, because the hero already runs video and WebGL.

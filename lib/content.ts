@@ -20,7 +20,7 @@ export const solutions: Solution[] = [
     slug: "ai-agents",
     icon: "agent",
     scene: "neural",
-    beam: "241 217 160",
+    beam: "251 234 162",
     stack: ["LangChain", "OpenAI API", "Hugging Face", "Ollama", "FastAPI"],
     industries: ["finance", "healthcare", "professional", "retail"]
   },

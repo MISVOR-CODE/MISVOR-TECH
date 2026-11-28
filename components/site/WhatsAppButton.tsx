@@ -102,7 +102,7 @@ export function WhatsAppButton() {
       onPointerDown={handlePointerDown}
       onClick={handleClick}
       style={{ right: position.right, bottom: position.bottom }}
-      className="fixed z-50 flex h-14 w-14 touch-none select-none items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_0_0_3px_#08121f,0_0_0_4px_#c39a4b,0_12px_28px_-8px_rgba(0,0,0,0.7)] transition-transform active:scale-95"
+      className="fixed z-50 flex h-14 w-14 touch-none select-none items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_0_0_3px_#08121f,0_0_0_4px_#e4ae3c,0_12px_28px_-8px_rgba(0,0,0,0.7)] transition-transform active:scale-95"
     >
       <WhatsAppIcon />
     </a>

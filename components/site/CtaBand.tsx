@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl";
+import { Reveal } from "@/components/motion/Reveal";
+import { Magnetic } from "@/components/motion/Magnetic";
 import { Link } from "@/i18n/navigation";
 import { Shafts } from "@/components/fx/Shafts";
 import { Medallion } from "@/components/fx/Scene";
@@ -15,19 +17,25 @@ export function CtaBand() {
         ]}
       />
       <div className="relative mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 py-14 text-center sm:px-6 lg:flex-row lg:gap-14 lg:py-20 lg:text-left">
-        <Medallion className="h-56 w-56 shrink-0 sm:h-64 sm:w-64 lg:h-72 lg:w-72" />
-        <div className="max-w-xl">
+        <Reveal variant="scale">
+          <Medallion className="h-56 w-56 shrink-0 sm:h-64 sm:w-64 lg:h-72 lg:w-72" />
+        </Reveal>
+        <Reveal delay={0.12} className="max-w-xl">
           <h2 className="text-3xl font-medium leading-tight text-[#f6edd6] sm:text-4xl lg:text-[2.7rem]">{t("heading")}</h2>
           <p className="mt-4 text-base leading-relaxed text-[#d9ceb4] sm:text-lg">{t("body")}</p>
           <div className="mt-7 flex flex-wrap justify-center gap-3 lg:justify-start">
-            <Link href="/contact" className="btn-brass">
-              {t("primary")}
-            </Link>
-            <Link href="/pricing" className="btn-line">
-              {t("secondary")}
-            </Link>
+            <Magnetic>
+              <Link href="/contact" className="btn-brass">
+                {t("primary")}
+              </Link>
+            </Magnetic>
+            <Magnetic>
+              <Link href="/pricing" className="btn-line">
+                {t("secondary")}
+              </Link>
+            </Magnetic>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

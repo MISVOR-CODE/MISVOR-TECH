@@ -20,6 +20,10 @@
     "search": "Buscar",
     "language": "Idioma"
   },
+  "parentBar": {
+    "back": "Volver a misvor.com",
+    "tagline": "MISVOR Tech · Software, IA y automatización"
+  },
   "footer": {
     "companyHeading": "MISVOR",
     "tagline": "IA y automatización para todos los sectores",

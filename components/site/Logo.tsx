@@ -5,13 +5,13 @@ import { media } from "@/lib/media";
 export function Logo({ className = "" }: { className?: string }) {
   if (media.logo) {
     return (
-      <span className={`relative block h-11 w-[6.45rem] lg:h-14 lg:w-[8.2rem] ${className}`}>
+      <span className={`relative block h-9 w-[6.6rem] lg:h-12 lg:w-[8.8rem] ${className}`}>
         <Image
           src={media.logo}
           alt={media.logoAlt}
           fill
-          sizes="132px"
-          className="object-contain object-left drop-shadow-[0_0_14px_rgba(241,217,160,0.35)]"
+          sizes="142px"
+          className="object-contain object-left drop-shadow-[0_0_14px_rgba(251,234,162,0.35)]"
           priority
         />
       </span>

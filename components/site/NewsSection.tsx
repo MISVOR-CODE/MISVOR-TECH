@@ -1,4 +1,5 @@
 import { Pic } from "@/components/site/Pic";
+import { Reveal } from "@/components/motion/Reveal";
 import { media } from "@/lib/media";
 import { format } from "date-fns";
 import { es, enUS, fr } from "date-fns/locale";
@@ -30,7 +31,7 @@ export async function NewsSection() {
   return (
     <section className="surface-vellum-deep">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:py-20">
-        <div className="flex items-end justify-between">
+        <Reveal className="flex items-end justify-between">
           <div>
             <h2 className="text-3xl font-medium text-ink sm:text-4xl">{t("heading")}</h2>
             <div className="rule-double mt-5 w-24" />
@@ -38,14 +39,14 @@ export async function NewsSection() {
           <Link href="/blog" className="hidden border-b border-brass-deep pb-0.5 text-sm font-medium text-brand-dark hover:text-oxblood sm:block">
             {t("viewAll")}
           </Link>
-        </div>
+        </Reveal>
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {items.map((article) => (
+          {items.map((article, n) => (
+            <Reveal key={article.id} delay={(n % 3) * 0.09} className="h-full">
             <Link
-              key={article.id}
               href={article.slug === "#" ? "#" : `/articles/${article.slug}`}
-              className="plaque beam group p-3 transition hover:-translate-y-0.5"
+              className="plaque beam group block h-full p-3 transition hover:-translate-y-0.5"
             >
               <div className="relative h-[260px] w-full overflow-hidden border border-brass/40 sm:h-[300px]">
                 <Pic
@@ -67,6 +68,7 @@ export async function NewsSection() {
                 </h3>
               </div>
             </Link>
+            </Reveal>
           ))}
         </div>
 

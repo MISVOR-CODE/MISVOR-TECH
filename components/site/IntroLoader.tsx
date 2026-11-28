@@ -36,7 +36,7 @@ export function IntroLoader() {
     <div className="loader" aria-hidden="true">
       <div className="loader-inner">
         <div className="loader-mark">
-          <Image src="/misvor-mark.webp" alt="" width={730} height={194} priority />
+          <Image src="/misvor-mark.webp" alt="" width={730} height={163} priority />
           <span className="loader-shimmer" />
         </div>
         <span className="loader-word">MISVOR</span>

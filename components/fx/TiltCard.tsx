@@ -17,7 +17,7 @@ type Props = {
 // A plaque that leans toward the cursor. Children marked .z1 / .z2 sit at different
 // depths, so they shift against each other as the card tilts. Touch screens and
 // reduced-motion users get a flat card (handled in globals.css).
-export function TiltCard({ children, className = "", beam = "241 217 160", speed = "9s", max = 8, ref }: Props) {
+export function TiltCard({ children, className = "", beam = "251 234 162", speed = "9s", max = 8, ref }: Props) {
   const el = useRef<HTMLDivElement | null>(null);
 
   function move(e: React.PointerEvent<HTMLDivElement>) {

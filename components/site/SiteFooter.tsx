@@ -19,7 +19,9 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16">
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
           <div className="col-span-2 sm:col-span-3 lg:col-span-2">
-            <Logo />
+            <a href={site.mainSite} aria-label="MISVOR main site (misvor.com)" className="inline-block">
+              <Logo />
+            </a>
             <p className="mt-4 max-w-xs font-display text-lg italic text-brass-hi/90">{tFooter("tagline")}</p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed">{tFooter("blurb")}</p>
           </div>

@@ -69,8 +69,8 @@ export default function RobotWalker() {
     const gg = gc.getContext("2d")!;
     const grad = gg.createRadialGradient(32, 32, 0, 32, 32, 32);
     grad.addColorStop(0, "rgba(255,244,214,1)");
-    grad.addColorStop(0.4, "rgba(241,217,160,0.5)");
-    grad.addColorStop(1, "rgba(241,217,160,0)");
+    grad.addColorStop(0.4, "rgba(251,234,162,0.5)");
+    grad.addColorStop(1, "rgba(251,234,162,0)");
     gg.fillStyle = grad;
     gg.fillRect(0, 0, 64, 64);
     const glowTex = new THREE.CanvasTexture(gc);
@@ -92,7 +92,7 @@ export default function RobotWalker() {
 
     // The room: two brass-trimmed pilasters and a floor
     const wallMat = new THREE.MeshStandardMaterial({ color: 0x0f2238, metalness: 0.6, roughness: 0.45 });
-    const trimMat = new THREE.MeshStandardMaterial({ color: 0xc39a4b, metalness: 1, roughness: 0.3 });
+    const trimMat = new THREE.MeshStandardMaterial({ color: 0xe4ae3c, metalness: 1, roughness: 0.3 });
     const wallL = new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), wallMat);
     const wallR = new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), wallMat);
     const floor = new THREE.Mesh(new THREE.BoxGeometry(1, 0.1, 2.4), wallMat);

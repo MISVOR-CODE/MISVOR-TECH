@@ -20,6 +20,10 @@
     "search": "Search",
     "language": "Language"
   },
+  "parentBar": {
+    "back": "Back to misvor.com",
+    "tagline": "MISVOR Tech · Software, AI and automation"
+  },
   "footer": {
     "companyHeading": "MISVOR",
     "tagline": "AI and automation for every industry",

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 const plans = [
   { key: "pilot", beam: "128 168 224", featured: false },
-  { key: "build", beam: "241 217 160", featured: true },
+  { key: "build", beam: "251 234 162", featured: true },
   { key: "partner", beam: "122 190 168", featured: false }
 ] as const;
 

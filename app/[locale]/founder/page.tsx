@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const credentials = [
-  { key: "msc", beam: "241 217 160", speed: "6s" },
+  { key: "msc", beam: "251 234 162", speed: "6s" },
   { key: "cisco", beam: "128 168 224", speed: "7.5s" },
   { key: "google", beam: "122 190 168", speed: "9s" },
   { key: "languages", beam: "214 126 142", speed: "8s" }
@@ -97,7 +97,7 @@ export default async function FounderPage({ params }: { params: Promise<{ locale
           <ol className="mt-12 space-y-0 border-l border-brass/40">
             {roles.map((r) => (
               <li key={r} className="relative pb-10 pl-8 last:pb-0">
-                <span className="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-brass-hi shadow-[0_0_12px_2px_rgba(241,217,160,0.7)]" />
+                <span className="absolute -left-[5px] top-2 h-[9px] w-[9px] rounded-full bg-brass-hi shadow-[0_0_12px_2px_rgba(251,234,162,0.7)]" />
                 <p className="text-xs font-medium uppercase tracking-[0.2em] text-brass-hi/80">{t(`roles.${r}.when`)}</p>
                 <h3 className="mt-1 font-display text-2xl text-[#f6edd6]">{t(`roles.${r}.title`)}</h3>
                 <p className="text-sm text-[#cdbf9f]">{t(`roles.${r}.where`)}</p>

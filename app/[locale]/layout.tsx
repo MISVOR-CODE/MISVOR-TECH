@@ -7,6 +7,8 @@ import { routing, type Locale } from "@/i18n/routing";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { IntroLoader } from "@/components/site/IntroLoader";
+import { ParentBar } from "@/components/site/ParentBar";
+import { ScrollProgress } from "@/components/motion/ScrollProgress";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import "../globals.css";
 
@@ -81,6 +83,8 @@ export default async function LocaleLayout({
       </head>
       <body className="flex min-h-screen flex-col font-sans antialiased">
         <IntroLoader />
+        <ScrollProgress />
+        <ParentBar />
         <NextIntlClientProvider>
           <SiteHeader />
           <main className="flex-1">{children}</main>
